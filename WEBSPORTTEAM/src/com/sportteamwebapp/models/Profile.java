@@ -17,7 +17,7 @@ public class Profile {
 
     public Profile(int profile_id, User user, String birthdate, String phone, String description, double price) {
         this.setProfile_id(profile_id);
-        this.setUser(user)
+        this.setUser(user);
         this.setBirthdate(birthdate);
         this.setPhone(phone);
         this.setDescription(description);

@@ -205,22 +205,19 @@ public class STService implements Serializable {
         return null;
     }
 
-    public boolean addOffer(int id_o, User user, String instrument, String level, String start_date, String end_date, String days,
+    public boolean addOffer(int id_o, User user, String service, String level, String start_date, String end_date, String days,
                             String hour, String description, int vacant, String status) {
         return ((getConnection() != null) ?
-                getOffersEntity().add(id_o, user, instrument, level, start_date, end_date, days,
+                getOffersEntity().add(id_o, user, service, level, start_date, end_date, days,
                         hour, description, vacant, status) : false);
     }
 
-    public boolean deleteOffer(int id_p) {
-        return ((getConnection() != null) ?
-                getOffersEntity().delete(id_p) : false);
-    }
 
-    public boolean updateOffer(int id_o, User user, String instrument, String level, String start_date, String end_date, String days,
+
+    public boolean updateOffer(int id_o, User user, String service, String level, String start_date, String end_date, String days,
                                String hour, String description, int vacant, String status) {
         return ((getConnection() != null) ?
-                getOffersEntity().update(id_o, user, instrument, level, start_date, end_date, days,
+                getOffersEntity().update(id_o, user, service, level, start_date, end_date, days,
                         hour, description, vacant, status) : false);
     }
 
@@ -254,9 +251,9 @@ public class STService implements Serializable {
         return null;
     }
 
-    public boolean addTrainingClass(Offer offer, User user, int teacherScore, int studentScore) {
+    public boolean addTrainingClass(Offer offer, User user, int teamScore, int matchScore) {
         return ((getConnection() != null) ?
-                getTrainingClassesEntity().add(offer, user, teacherScore, studentScore) : false);
+                getTrainingClassesEntity().add(offer, user, teamScore, matchScore) : false);
     }
 
     public boolean deleteTrainingClass(Offer offer, User user) {
@@ -264,14 +261,14 @@ public class STService implements Serializable {
                 getTrainingClassesEntity().delete(offer , user) : false);
     }
 
-    public boolean updateTrainingClass(Offer offer, User user, int teacherScore, int studentScore) {
+    public boolean updateTrainingClass(Offer offer, User user, int teamScore, int matchScore) {
         return ((getConnection() != null) ?
-                getTrainingClassesEntity().update(offer, user, teacherScore, studentScore) : false);
+                getTrainingClassesEntity().update(offer, user, teamScore, matchScore) : false);
     }
 
     public boolean updateTrainingClass(TrainingClass trainingClass) {
         return updateTrainingClass(trainingClass.getOffer(), trainingClass.getUser(),
-                trainingClass.getTeacherScore(), trainingClass.getStudentScore());
+                trainingClass.getTeamScore(), trainingClass.getMatchScore());
     }
 
 
