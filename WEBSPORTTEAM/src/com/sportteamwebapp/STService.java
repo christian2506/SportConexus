@@ -9,6 +9,7 @@ import com.sportteamwebapp.models.TrainingClassesEntity;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
+import javax.xml.ws.Service;
 import java.io.Serializable;
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -198,9 +199,9 @@ public class STService implements Serializable {
         return null;
     }
 
-    public Offer getOffer(String instrument) {
+    public Offer getOffer(String service) {
         if(getConnection() != null) {
-            return getOffersEntity().findByInstrument(instrument);
+            return getOffersEntity().findByService(service);
         }
         return null;
     }

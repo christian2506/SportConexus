@@ -58,9 +58,9 @@ public class OffersEntity extends BaseEntity {
                 Integer.toString(id_o));
     }
 
-    public Offer findByInstrument(String instrument) {
+    public Offer findByService(String Service) {
         return findBy("WHERE service = '" +
-                instrument + "'");
+                Service + "'");
     }
 
     public List<Offer> findByTeacher(String id) {
@@ -73,12 +73,12 @@ public class OffersEntity extends BaseEntity {
                 Integer.toString(vacant));
     }
 
-    public boolean add(int id_o, User user, String instrument, String level, String start_date, String end_date, String days,
+    public boolean add(int id_o, User user, String service, String level, String start_date, String end_date, String days,
                        String hour, String description, int vacant, String status) {
         return(executeUpdate(
                 "INSERT INTO offers(offer_id, user_id, instrument, level, start_date, end_date, days, hour, description, vacant, state) VALUES(" +
                         Integer.toString(id_o) + Integer.toString(user.getUser_id())
-                        + ", '" + instrument  + "', '" + level
+                        + ", '"  + service  + "', '" + level
                         + "', '" + start_date  + "', '" + end_date
                         + "', '" + days  + "', '" + hour
                         + "', '" + description  + "', " + Integer.toString(vacant)
