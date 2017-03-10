@@ -130,7 +130,7 @@ public class UsersEntity extends BaseEntity{
         user = new User(
                 findLast().getUser_id() + 1,
                 email, password, first_name, last_name);
-        return (add( user.getEmail(), user.getPassword(),user.getFirst_name(), user.getLast_name()) ? user : null);
+        return (add( user.getEmail(), user.getPassword(),user.getFirstName(), user.getLastName()) ? user : null);
     }
 
 

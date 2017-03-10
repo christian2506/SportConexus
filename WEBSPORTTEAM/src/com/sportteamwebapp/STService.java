@@ -2,14 +2,10 @@ package com.sportteamwebapp;
 
 import com.sportteamwebapp.models.*;
 import com.sportteamwebapp.models.UsersEntity;
-import com.sportteamwebapp.models.ProfilesEntity;
-import com.sportteamwebapp.models.OffersEntity;
-import com.sportteamwebapp.models.TrainingClassesEntity;
 
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
-import javax.xml.ws.Service;
 import java.io.Serializable;
 import java.sql.Connection;
 import java.sql.SQLException;

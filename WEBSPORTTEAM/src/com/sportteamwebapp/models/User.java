@@ -1,39 +1,38 @@
 package com.sportteamwebapp.models;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-
 
 public class User{
 
-    private int user_id;
-    private String email;
+    private int userId;
     private String password;
-    private String first_name;
-    private String last_name;
+    private String firstName;
+    private String lastName;
+    private int phone;
+    private String email;
+    private String gender;
+    private int dni;
+    private double paymenttype;
+    private int teamid;
 
-    public User(int user_id, String email, String password, String first_name, String last_name) {
-        this.setUser_id(user_id);
-        this.setEmail(email);
+    public User(int userId, String password, String firstName, String lastName, int phone, String email, String gender, int dni, double paymenttype, int teamid) {
+        this.setUserId(userId);
         this.setPassword(password);
-        this.setFirst_name(first_name);
-        this.setLast_name(last_name);
+        this.setFirstName(firstName);
+        this.setLastName(lastName);
+        this.setPhone(phone);
+        this.setEmail(email);
+        this.setGender(gender);
+        this.setDni(dni);
+        this.setPaymenttype(paymenttype);
+        this.setTeamid(teamid);
     }
 
-    public int getUser_id() {
-        return user_id;
+    public int getUserId() {
+        return userId;
     }
 
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
     public String getPassword() {
@@ -44,35 +43,68 @@ public class User{
         this.password = password;
     }
 
-    public String getFirst_name() {
-        return first_name;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFirst_name(String first_name) {
-        this.first_name = first_name;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public String getLast_name() {
-        return last_name;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLast_name(String last_name) {
-        this.last_name = last_name;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
-    public static User buildFromResultSet(ResultSet resultSet) {
-        User user = null;
-        try {
-            user = new User(
-                    resultSet.getInt("user_id"),
-                    resultSet.getString("email"),
-                    resultSet.getString("password"),
-                    resultSet.getString("first_name"),
-                    resultSet.getString("last_name")
-            );
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return user;
+    public int getPhone() {
+        return phone;
     }
+
+    public void setPhone(int phone) {
+        this.phone = phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public int getDni() {
+        return dni;
+    }
+
+    public void setDni(int dni) {
+        this.dni = dni;
+    }
+
+    public double getPaymenttype() {
+        return paymenttype;
+    }
+
+    public void setPaymenttype(double paymenttype) {
+        this.paymenttype = paymenttype;
+    }
+
+    public int getTeamid() {
+        return teamid;
+    }
+
+    public void setTeamid(int teamid) {
+        this.teamid = teamid;
+    }
+
 }
