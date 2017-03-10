@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>SportConexus a Corporate Business Category Flat Bootstrap Responsive Website Template </title>
+  <title>SportConexus a Corporate Business </title>
   <!-- for-mobile-apps -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -56,8 +56,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           <nav>
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.jsp">Home</a></li>
-              <li><a href="services.html" class="hvr-sweep-to-bottom">Services</a></li>
-              <li><a href="about.html" class="hvr-sweep-to-bottom">About</a></li>
+              <li><a href="services.html" class="hvr-sweep-to-bottom">Servicios</a></li>
+              <li><a href="about.html" class="hvr-sweep-to-bottom">Acerca</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown">Torneo<b class="caret"></b></a>
                 <ul class="dropdown-menu agile_short_dropdown">
@@ -66,7 +66,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </ul>
               </li>
               <li><a href="portfolio.html" class="hvr-sweep-to-bottom">Portfolio</a></li>
-              <li><a href="contact.html" class="hvr-sweep-to-bottom">Contact</a></li>
+              <li><a href="contact.html" class="hvr-sweep-to-bottom">Contactanos</a></li>
             </ul>
             <div class="agileinfo_search">
               <form action="#" method="post">
@@ -156,7 +156,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="banner">
   <div class="container">
     <h2>Pasa Momentos Divertidos con <span> Amigos</span></h2>
-    <p>Creative agency for your design needs</p>
+    <p>Eventos Deportivos</p>
     <div class="wthree_banner_grids">
       <div class="col-md-3 wthree_banner_grid">
         <i class="fa fa-desktop" aria-hidden="true"></i>
@@ -178,8 +178,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
     <div class="agileits_more">
       <ul>
-        <li><a href="#" class="w3ls_banner_more hvr-icon-hang">Use it for free</a></li>
-        <li><a href="#" class="hvr-icon-hang" data-toggle="modal" data-target="#myModal">Learn More</a></li>
+        <li><a href="#" class="w3ls_banner_more hvr-icon-hang">Explore</a></li>
+        <li><a href="#" class="hvr-icon-hang" data-toggle="modal" data-target="#myModal">Mas Informacion</a></li>
       </ul>
     </div>
   </div>
@@ -196,14 +196,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       <section>
         <div class="modal-body">
           <img src="images/banner.jpg" alt=" " class="img-responsive" />
-          <p>Ut enim ad minima veniam, quis nostrum
-            exercitationem ullam corporis suscipit laboriosam,
-            nisi ut aliquid ex ea commodi consequatur? Quis autem
-            vel eum iure reprehenderit qui in ea voluptate velit
-            esse quam nihil molestiae consequatur, vel illum qui
-            dolorem eum fugiat quo voluptas nulla pariatur.
-            <i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-              esse quam nihil molestiae consequatur.</i></p>
+          <p>Comparte Momentos Inolvidables con seres queridos en "SPORT CONNEXUS"
+            Tienes gran cantidad de espacios deportivos para elegir
+            la mejor adaptable sus necesidades
+            <i>"Encontra un lugar disponible nunca ha sido mas facil"</i></p>
         </div>
       </section>
     </div>
@@ -214,14 +210,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="banner-bottom">
   <div class="container">
     <div class="col-md-8 w3l_banner_bottom_left">
-      <h3>Our Design and development</h3>
-      <p>Integer et feugiat elit. Nullam at turpis vel sapien aliquam feugiat vitae vitae mi.
-        Donec scelerisque, justo vel blandit tempor, quam tellus blandit lectus, ut viverra leo
-        velit et quam. Phasellus viverra et quam efficitur rhoncus sollicitudin.
-        Etiam ultricies mauris et dapibus molestie. Suspendisse bibendum ex sit amet
-        tellus finibus ultrices. Sed velit urna, faucibus at gravida ut, aliquam ut purus.
-        <span>Donec porttitor neque sed mauris sagittis, a auctor enim porta.
-						Sed tristique sollicitudin orci. Vivamus vulputate nunc id nulla elementum,nec vehicula ipsum ullamcorper.</span></p>
+      <h3>Nuestra Mision</h3>
+
+        <span>Facilitar la Reservacion de espacios deportivos para pasar una experiencia Inovidable.</span>
     </div>
     <div class="col-md-4 w3l_banner_bottom_right">
       <img src="images/1.jpg" alt=" " class="img-responsive" />
@@ -236,7 +227,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <img src="images/2.jpg" alt=" " class="img-responsive" />
   </div>
   <div class="col-md-6 w3_two_grid_right">
-    <h3>make your business success with us</h3>
+    <h3>Ten momentos divertidos</h3>
     <p class="w3layouts_dummy_para">Phasellus viverra et quam efficitur rhoncus sollicitudin.
       Etiam ultricies mauris et dapibus molestie.</p>
     <div class="w3_two_grid_right1">
@@ -246,8 +237,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
       </div>
       <div class="col-xs-9 w3_two_grid_right_gridr">
-        <h4>Project Management</h4>
-        <p>Suspendisse bibendum ex sit amet tellus finibus ultrices.</p>
+        <h4>Registro</h4>
+        <p>Registro de Equipos.</p>
       </div>
       <div class="clearfix"> </div>
     </div>
@@ -258,8 +249,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
       </div>
       <div class="col-xs-9 w3_two_grid_right_gridr">
-        <h4>Design & Development</h4>
-        <p>Suspendisse bibendum ex sit amet tellus finibus ultrices.</p>
+        <h4>Calendario</h4>
+        <p>Disponivilidad de Canchas deportvas.</p>
       </div>
       <div class="clearfix"> </div>
     </div>
@@ -270,8 +261,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
       </div>
       <div class="col-xs-9 w3_two_grid_right_gridr">
-        <h4>Business Management</h4>
-        <p>Suspendisse bibendum ex sit amet tellus finibus ultrices.</p>
+        <h4>Mantenimiento </h4>
+        <p>Mantenimiento de Canchas Deportivas.</p>
       </div>
       <div class="clearfix"> </div>
     </div>
@@ -282,8 +273,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
       </div>
       <div class="col-xs-9 w3_two_grid_right_gridr">
-        <h4>Awesome Results</h4>
-        <p>Suspendisse bibendum ex sit amet tellus finibus ultrices.</p>
+        <h4> Torneos internos </h4>
+        <p>Competicion de Entre equipos  .</p>
       </div>
       <div class="clearfix"> </div>
     </div>
@@ -294,8 +285,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- news -->
 <div class="news">
   <div class="container">
-    <h3 class="agile_head">Latest News</h3>
-    <p class="w3_agile_para">Suspendisse bibendum ex sit amet tellus finibus</p>
+    <h3 class="agile_head">Ultimas noticias</h3>
+    <p class="w3_agile_para">Registro de dias de actividades</p>
     <div class="agileits_w3layouts_news_grids">
       <ul id="flexiselDemo1">
         <li>
@@ -303,7 +294,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="w3_agileits_news_grid">
               <img src="images/3.jpg" alt=" " class="img-responsive" />
               <div class="w3_agileits_news_grid_pos">
-                <h4>Date : 15 November 2016</h4>
+                <h4>Dia : 15 Noviembre 2016</h4>
               </div>
             </div>
             <h5><a href="#" data-toggle="modal" data-target="#myModal">bibendum ex sit amet</a></h5>
@@ -315,7 +306,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="w3_agileits_news_grid">
               <img src="images/4.jpg" alt=" " class="img-responsive" />
               <div class="w3_agileits_news_grid_pos">
-                <h4>Date : 18 November 2016</h4>
+                <h4>Dia : 18 Noviembre 2016</h4>
               </div>
             </div>
             <h5><a href="#" data-toggle="modal" data-target="#myModal">augue in felis facili</a></h5>
@@ -327,7 +318,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="w3_agileits_news_grid">
               <img src="images/5.jpg" alt=" " class="img-responsive" />
               <div class="w3_agileits_news_grid_pos">
-                <h4>Date : 23 November 2016</h4>
+                <h4>Dia : 23 Noviembre 2016</h4>
               </div>
             </div>
             <h5><a href="#" data-toggle="modal" data-target="#myModal">facilisis consecte</a></h5>
@@ -339,7 +330,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="w3_agileits_news_grid">
               <img src="images/6.jpg" alt=" " class="img-responsive" />
               <div class="w3_agileits_news_grid_pos">
-                <h4>Date : 28 November 2016</h4>
+                <h4>Dia : 28 Noviembre 2016</h4>
               </div>
             </div>
             <h5><a href="#" data-toggle="modal" data-target="#myModal">sodales augue felis</a></h5>
@@ -351,7 +342,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="w3_agileits_news_grid">
               <img src="images/1.jpg" alt=" " class="img-responsive" />
               <div class="w3_agileits_news_grid_pos">
-                <h4>Date : 30 November 2016</h4>
+                <h4>Dia : 30 Noviembre 2016</h4>
               </div>
             </div>
             <h5><a href="#" data-toggle="modal" data-target="#myModal">augue in felis felis</a></h5>
@@ -396,30 +387,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <div class="wthree_stat">
     <div class="container">
       <div class="col-md-5 wthree_stat_left">
-        <h3>Our Stats</h3>
-        <p>Nullam blandit condimentum tellus, eu sagittis leo pellentesque nec.
-          Integer semper risus commodo neque semper.</p>
+        <h3>Nuestras Estadisticas</h3>
+        <p>Informacion de Actividades Registradas.</p>
       </div>
       <div class="col-md-7 wthree_stat_right">
         <ul>
           <li>
             <div class="wthree_stat_right1">
               <i class="fa fa-heart" aria-hidden="true"></i>
-              <h4>People Loved</h4>
+              <h4>Pesonas que les gusta</h4>
               <p class="counter">324</p>
             </div>
           </li>
           <li>
             <div class="wthree_stat_right1">
               <i class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></i>
-              <h4>Save Income</h4>
+              <h4>Ahorra Dinero</h4>
               <p class="counter">412</p>
             </div>
           </li>
           <li>
             <div class="wthree_stat_right1">
               <i class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></i>
-              <h4>Creative Design</h4>
+              <h4>Creativo</h4>
               <p class="counter">231</p>
             </div>
           </li>
@@ -431,7 +421,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <div class="w3layouts_newsletter">
     <div class="container">
       <div class="w3layouts_newsletter_left">
-        <h3>Subscribe to our newsletter</h3>
+        <h3>Suscrivete a nuestra Web</h3>
       </div>
       <div class="w3layouts_newsletter_right">
         <form action="#" method="post">
@@ -469,21 +459,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="w3l_footer_grid">
           <i class="fa fa-home" aria-hidden="true"></i>
         </div>
-        <h4>Address</h4>
+        <h4>Direccion</h4>
         <p>234 main street west Building, NewYork City,F34 834.</p>
       </div>
       <div class="col-md-2 w3_footer_grid">
         <div class="w3l_footer_grid">
           <i class="fa fa-phone" aria-hidden="true"></i>
         </div>
-        <h4>Call Us</h4>
+        <h4>Llamanos</h4>
         <p>+(123) 456 789 344 <span>+(123) 456 780 344</span></p>
       </div>
       <div class="col-md-3 w3_footer_grid">
         <div class="w3l_footer_grid">
           <i class="fa fa-envelope" aria-hidden="true"></i>
         </div>
-        <h4>Mail Us</h4>
+        <h4>Email</h4>
         <p><a href="mailto:info@example.com">info@example1.com</a>
           <span><a href="mailto:info@example.com">info@example2.com</a></span></p>
       </div>
@@ -495,10 +485,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <div class="container">
     <div class="w3ls_copyright_left">
       <ul>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Servicios</a></li>
+        <li><a href="about.html">Acerca</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html">Contactanos</a></li>
       </ul>
       <p> © 2017 SportConexus. All Rights Reserved </p>
     </div>
