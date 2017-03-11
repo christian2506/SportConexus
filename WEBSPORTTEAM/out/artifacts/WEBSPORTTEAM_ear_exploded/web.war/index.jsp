@@ -61,7 +61,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown">Torneo<b class="caret"></b></a>
                 <ul class="dropdown-menu agile_short_dropdown">
-                  <li><a href="icons.html">Teams</a></li>
+                  <li><a href="icons.html">Equipos</a></li>
 
                 </ul>
               </li>
@@ -395,7 +395,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           <li>
             <div class="wthree_stat_right1">
               <i class="fa fa-heart" aria-hidden="true"></i>
-              <h4>Pesonas que les gusta</h4>
+              <h4>Personas que les gusta</h4>
               <p class="counter">324</p>
             </div>
           </li>
