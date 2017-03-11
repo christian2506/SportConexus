@@ -55,8 +55,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
           <nav>
             <ul class="nav navbar-nav">
-              <li class="active"><a href="index.jsp">Home</a></li>
-              <li><a href="services.html" class="hvr-sweep-to-bottom">Servicios</a></li>
+              <li class="active"><a href="index.jsp">Inicio</a></li>
+              <li><a href="services.html" class="hvr-sweep-to-bottom"> ¿Que Ofrecemos? </a></li>
               <li><a href="about.html" class="hvr-sweep-to-bottom">Acerca</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown">Torneo<b class="caret"></b></a>
@@ -402,7 +402,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           <li>
             <div class="wthree_stat_right1">
               <i class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></i>
-              <h4>Ahorra Dinero</h4>
+              <h4>Ahorre Dinero</h4>
               <p class="counter">412</p>
             </div>
           </li>
@@ -452,8 +452,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="w3_footer_grids">
       <div class="col-md-4 w3_footer_grid">
         <h2><a href="index.jsp"><span>Sport</span>Conexus</a></h2>
-        <p>Aliquam lacus tur <a href="#">http:///SportConexus.com</a> lobortis quis dolor sed,
-          nec convallis velit vestibulum ac dignissim rhoncus neque.</p>
+        <p>Nuestra Web <a href="#">http:///SportConexus.com</a> Club Deportivo.</p>
       </div>
       <div class="col-md-3 w3_footer_grid">
         <div class="w3l_footer_grid">
@@ -490,7 +489,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="contact.html">Contactanos</a></li>
       </ul>
-      <p> © 2017 SportConexus. All Rights Reserved </p>
+      <p> © 2017 SportConexus. Todos los Derechos Reservados </p>
     </div>
     <div class="w3ls_copyright_right">
       <ul>
