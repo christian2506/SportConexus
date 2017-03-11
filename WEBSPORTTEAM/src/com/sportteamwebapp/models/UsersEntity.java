@@ -5,5 +5,5 @@ package com.sportteamwebapp.models;
  */
 public class UsersEntity {
 
-    
+
 }

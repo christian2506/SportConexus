@@ -101,8 +101,8 @@
       <file leaf-file-name="UsersEntity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/UsersEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -799,7 +799,7 @@
       <workItem from="1489067162322" duration="31000" />
       <workItem from="1489098979609" duration="39000" />
       <workItem from="1489176619344" duration="4885000" />
-      <workItem from="1489196209276" duration="663000" />
+      <workItem from="1489196209276" duration="964000" />
     </task>
     <task id="LOCAL-00001" summary="Falta el entity">
       <created>1489183111336</created>
@@ -840,7 +840,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39754000" />
+    <option name="totallyTimeSpent" value="40055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1215,8 +1215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/UsersEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
