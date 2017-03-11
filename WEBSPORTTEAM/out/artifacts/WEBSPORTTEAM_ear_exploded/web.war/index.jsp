@@ -466,7 +466,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="w3l_footer_grid">
           <i class="fa fa-phone" aria-hidden="true"></i>
         </div>
-        <h4>Llmanos</h4>
+        <h4>Llamanos</h4>
         <p>+(123) 456 789 344 <span>+(123) 456 780 344</span></p>
       </div>
       <div class="col-md-3 w3_footer_grid">
