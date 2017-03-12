@@ -56,7 +56,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           <nav>
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.jsp">Inicio</a></li>
-              <li><a href="services.html" class="hvr-sweep-to-bottom"> ¿Que Ofrecemos? </a></li>
+              <li><a href="services.jsp" class="hvr-sweep-to-bottom"> ¿Que Ofrecemos? </a></li>
               <li><a href="about.html" class="hvr-sweep-to-bottom">Acerca</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown">Torneo<b class="caret"></b></a>
@@ -65,7 +65,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                 </ul>
               </li>
-              <li><a href="portfolio.html" class="hvr-sweep-to-bottom">Portfolio</a></li>
+              <li><a href="portfolio.jsp" class="hvr-sweep-to-bottom">Portafolio</a></li>
               <li><a href="contact.html" class="hvr-sweep-to-bottom">Contactanos</a></li>
             </ul>
             <div class="agileinfo_search">
@@ -484,9 +484,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <div class="container">
     <div class="w3ls_copyright_left">
       <ul>
-        <li><a href="services.html">Servicios</a></li>
+        <li><a href="services.jsp">Servicios</a></li>
         <li><a href="about.html">Acerca</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="portfolio.jsp">Portfolio</a></li>
         <li><a href="contact.html">Contactanos</a></li>
       </ul>
       <p> © 2017 SportConexus. Todos los Derechos Reservados </p>
