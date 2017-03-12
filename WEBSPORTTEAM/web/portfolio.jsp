@@ -161,8 +161,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- portfolio -->
 <div class="portfolio">
     <div class="container">
-        <h3 class="agile_head">Portfolio</h3>
-        <p class="w3_agile_para">Suspendisse bibendum ex sit amet tellus finibus</p>
+        <h3 class="agile_head">Portafolio</h3>
+        <p class="w3_agile_para">Registro de Actividades</p>
     </div>
     <div class="w3_agile_portfolio_grids">
         <div class="agile_portfolio_grid">
