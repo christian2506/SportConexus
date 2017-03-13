@@ -297,8 +297,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <h4>Dia : 15 Noviembre 2016</h4>
               </div>
             </div>
-            <h5><a href="#" data-toggle="modal" data-target="#myModal">bibendum ex sit amet</a></h5>
-            <p>Nunc sodales augue in felis facilisis consectetur.</p>
+            <h5><a href="#" data-toggle="modal" data-target="#myModal">Hockey Sobre cesped</a></h5>
+            <p>Torneo Interno.</p>
           </div>
         </li>
         <li>
@@ -309,8 +309,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <h4>Dia : 18 Noviembre 2016</h4>
               </div>
             </div>
-            <h5><a href="#" data-toggle="modal" data-target="#myModal">augue in felis facili</a></h5>
-            <p>Nunc sodales augue in felis facilisis consectetur.</p>
+            <h5><a href="#" data-toggle="modal" data-target="#myModal">Entrenamiento</a></h5>
+            <p> Ejercicios de Calentamiento.</p>
           </div>
         </li>
         <li>
@@ -321,8 +321,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <h4>Dia : 23 Noviembre 2016</h4>
               </div>
             </div>
-            <h5><a href="#" data-toggle="modal" data-target="#myModal">facilisis consecte</a></h5>
-            <p>Nunc sodales augue in felis facilisis consectetur.</p>
+            <h5><a href="#" data-toggle="modal" data-target="#myModal">Baskeball</a></h5>
+            <p>Torneo Juvenil.</p>
           </div>
         </li>
         <li>
@@ -333,8 +333,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <h4>Dia : 28 Noviembre 2016</h4>
               </div>
             </div>
-            <h5><a href="#" data-toggle="modal" data-target="#myModal">sodales augue felis</a></h5>
-            <p>Nunc sodales augue in felis facilisis consectetur.</p>
+            <h5><a href="#" data-toggle="modal" data-target="#myModal">Tennis</a></h5>
+            <p>Entrenamiento .</p>
           </div>
         </li>
         <li>
@@ -345,8 +345,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <h4>Dia : 30 Noviembre 2016</h4>
               </div>
             </div>
-            <h5><a href="#" data-toggle="modal" data-target="#myModal">augue in felis felis</a></h5>
-            <p>Nunc sodales augue in felis facilisis consectetur.</p>
+            <h5><a href="#" data-toggle="modal" data-target="#myModal">Futbol</a></h5>
+            <p>Torneo Juvenil.</p>
           </div>
         </li>
       </ul>
@@ -486,7 +486,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       <ul>
         <li><a href="services.jsp">Servicios</a></li>
         <li><a href="about.html">Acerca</a></li>
-        <li><a href="portfolio.jsp">Portfolio</a></li>
+        <li><a href="portfolio.jsp">Portafolio</a></li>
         <li><a href="contact.html">Contactanos</a></li>
       </ul>
       <p> © 2017 SportConexus. Todos los Derechos Reservados </p>

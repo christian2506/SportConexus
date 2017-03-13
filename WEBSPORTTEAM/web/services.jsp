@@ -173,8 +173,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <i class="fa fa-cubes" aria-hidden="true"></i>
                     </div>
                 </div>
-                <h4>tempus eu turpis rhoncus</h4>
-                <p>Aliquam lacus turpis, lobortis quis dolor sed, dignissim rhoncus neque.</p>
+                <h4>Entrenamientos</h4>
+                <p>Disponivilidad de Espacios .</p>
             </div>
             <div class="col-md-4 w3_agile_services_grid">
                 <div class="agile_services_grid">
@@ -187,8 +187,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <i class="fa fa-line-chart" aria-hidden="true"></i>
                     </div>
                 </div>
-                <h4>lobortis quis dolor sed lacus</h4>
-                <p>Aliquam lacus turpis, lobortis quis dolor sed, dignissim rhoncus neque.</p>
+                <h4>Practicas</h4>
+                <p>Sectores para practicas Interescolares.</p>
             </div>
             <div class="col-md-4 w3_agile_services_grid">
                 <div class="agile_services_grid">
@@ -201,8 +201,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <i class="fa fa-cog" aria-hidden="true"></i>
                     </div>
                 </div>
-                <h4>dignissim rhoncus eu turpis</h4>
-                <p>Aliquam lacus turpis, lobortis quis dolor sed, dignissim rhoncus neque.</p>
+                <h4>Disponiblilidad de Canchas </h4>
+                <p>Practicas deportivas .</p>
             </div>
             <div class="clearfix"> </div>
         </div>
@@ -212,7 +212,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- services-bottom -->
 <div class="services-bottom">
     <div class="container">
-        <h3>a satisfied customer is the best business strategy of all</h3>
+        <h3>Incentivar el deporte al publico</h3>
     </div>
 </div>
 <!-- //services-bottom -->
@@ -254,7 +254,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
         <div class="w3ls_copyright_left">
             <ul>
-                <li class="active"><a href="services.html">Servicios</a></li>
+                <li class="active"><a href="services.jsp">Servicios</a></li>
                 <li><a href="about.html">Acerca</a></li>
                 <li><a href="portfolio.jsp">Portfolio</a></li>
                 <li><a href="contact.html">Contactanos</a></li>
