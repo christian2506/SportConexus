@@ -1,6 +1,9 @@
 package com.sportteamwebapp.models;
 
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 public class User{
 
     private int userId;
@@ -11,20 +14,18 @@ public class User{
     private String email;
     private String gender;
     private int dni;
-    private double paymenttype;
-    private int teamid;
+    private int teamId;
 
-    public User(int userId, String password, String firstName, String lastName, int phone, String email, String gender, int dni, double paymenttype, int teamid) {
-        this.setUserId(userId);
-        this.setPassword(password);
-        this.setFirstName(firstName);
-        this.setLastName(lastName);
-        this.setPhone(phone);
-        this.setEmail(email);
-        this.setGender(gender);
-        this.setDni(dni);
-        this.setPaymenttype(paymenttype);
-        this.setTeamid(teamid);
+    public User(int userId, String password, String firstName, String lastName, int phone, String email, String gender, int dni, int teamId) {
+        this.userId = userId;
+        this.password = password;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phone = phone;
+        this.email = email;
+        this.gender = gender;
+        this.dni = dni;
+        this.teamId = teamId;
     }
 
     public int getUserId() {
@@ -91,20 +92,13 @@ public class User{
         this.dni = dni;
     }
 
-    public double getPaymenttype() {
-        return paymenttype;
+    public int getTeamId() {
+        return teamId;
     }
 
-    public void setPaymenttype(double paymenttype) {
-        this.paymenttype = paymenttype;
+    public void setTeamId(int teamId) {
+        this.teamId = teamId;
     }
 
-    public int getTeamid() {
-        return teamid;
-    }
-
-    public void setTeamid(int teamid) {
-        this.teamid = teamid;
-    }
 
 }

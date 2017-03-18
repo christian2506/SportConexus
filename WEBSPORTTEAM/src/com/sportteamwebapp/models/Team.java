@@ -1,5 +1,8 @@
 package com.sportteamwebapp.models;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 /**
  * Created by yeyo on 10/03/2017.
  */
@@ -56,5 +59,19 @@ public class Team {
 
     public void setSportId(int sportId) {
         this.sportId = sportId;
+    }
+
+    public static Team build(ResultSet resultSet) {
+        try {
+            return new Team(resultSet.getInt("team_id"),
+
+                    resultSet.getString("team_name"),
+                    resultSet.getInt("team_rank"),
+                    resultSet.getInt("number_victory"),
+                    resultSet.getInt("password"));
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 }
