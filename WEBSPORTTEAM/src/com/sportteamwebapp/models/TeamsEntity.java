@@ -16,7 +16,7 @@ public class TeamsEntity extends BaseEntity {
         return findByCriteria(DEFAULT_SQL);
     }
 
-    public Team findById(String id) {
+    public Team findById(int id) {
         List<Team> teams = findByCriteria(DEFAULT_SQL +
                 " WHERE team_id = '" + id + "'");
         return (teams != null) ? teams.get(0) : null;
@@ -46,25 +46,25 @@ public class TeamsEntity extends BaseEntity {
         return null;
     }
 
-    public SportsEntity getRegionsEntity() {
+    public SportsEntity getSportsEntity() {
         return sportsEntity;
     }
 
-    public void setSportsEntity(SportEntity sportsEntity) {
+    public void setSportsEntity(SportsEntity sportsEntity) {
         this.sportsEntity = sportsEntity;
     }
 
-    public Team create(int id, String name,  int regionId) {
+    public Team create(int id, String name,  int rank,int victory, int sportId) {
         if(findByName(name) == null) {
             if(getConnection() != null) {
-                String sql = "INSERT INTO countries(country_id, country_name, region_id) VALUES('" +
+                String sql = "INSERT INTO teams(team_id, team_name, team_rank , number_victory , sport_id) VALUES('" +
                         id + "', '" +
-                        name + "', " + String.valueOf(regionId) + ")";
+                        name + "', " + rank + "', '"+victory + "', '" + String.valueOf(sportId) + ")";
                 try {
                     int results = getConnection().createStatement().executeUpdate(sql);
                     if(results > 0) {
-                        Country country = new Country(id, name, getRegionsEntity().findById(regionId));
-                        return country;
+                        Team team = new Team(id, name,rank,victory ,getSportsEntity().findById(sportId));
+                        return team;
                     }
                 } catch (SQLException e) {
                     e.printStackTrace();
@@ -86,14 +86,14 @@ public class TeamsEntity extends BaseEntity {
     }
 
     public boolean delete(String id) {
-        return updateByCriteria("DELETE FROM countries WHERE country_id = '"+
+        return updateByCriteria("DELETE FROM teams WHERE team_id = '"+
                 id + "'") > 0;
     }
 
 
-    public boolean update(Country country) {
-        return updateByCriteria("UPDATE countries SET country_name = '" +
-                country.getName() + "' WHERE country_id = '" + country.getId() + "'") > 0;
+    public boolean update(Team team) {
+        return updateByCriteria("UPDATE team SET team_name = '" +
+                team.getName() + "' WHERE team_id = '" + team.getTeamId() + "'") > 0;
     }
 
 

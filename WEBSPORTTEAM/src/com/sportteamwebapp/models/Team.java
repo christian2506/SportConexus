@@ -68,7 +68,7 @@ public class Team {
                     resultSet.getString("team_name"),
                     resultSet.getInt("team_rank"),
                     resultSet.getInt("number_victory"),
-                    resultSet.getInt("password"));
+                    sportsEntity.findById(resultSet.getInt("sport_id")));
         } catch (SQLException e) {
             e.printStackTrace();
             return null;
