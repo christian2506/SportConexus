@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e31614c-12be-4065-b6db-3b384f4ccdc5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -788,7 +787,7 @@
       <workItem from="1489340184877" duration="635000" />
       <workItem from="1489349803976" duration="249000" />
       <workItem from="1489411178864" duration="2496000" />
-      <workItem from="1489771181486" duration="1947000" />
+      <workItem from="1489771181486" duration="1999000" />
     </task>
     <task id="LOCAL-00001" summary="Falta el entity">
       <created>1489183111336</created>
@@ -825,11 +824,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489184504534</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Base de datos">
+      <created>1489796743818</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1489796743818</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50812000" />
+    <option name="totallyTimeSpent" value="50864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -943,7 +949,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Falta el entity" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Base de datos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base de datos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
