@@ -5,4 +5,24 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
+
+    <package name="default" extends="struts-default">
+
+
+        <action name="region" class="pe.edu.utp.dataaccess.actions.RegionAction">
+            <result name="success">showRegionsCount.jsp</result>
+            <result name="error">showError.jsp</result>
+        </action>
+        <action name="list" class="pe.edu.utp.dataaccess.actions.RegionAction" method="list">
+            <result name="success">listRegions.jsp</result>
+        </action>
+        <action name="login">
+            <result>login.jsp</result>
+        </action>
+        <action name="validate" class="pe.edu.utp.dataaccess.actions.LoginAction" method="validate">
+            <result name="success">welcome.jsp</result>
+            <result name="error">showError.jsp</result>
+        </action>
+
+    </package>
 </struts>
