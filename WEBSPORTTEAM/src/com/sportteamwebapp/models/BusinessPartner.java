@@ -1,40 +1,72 @@
 package com.sportteamwebapp.models;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 /**
  * Created by Accent AR on 10/03/2017.
  */
 public class BusinessPartner {
-    private int businesspartnerId;
-    private String namepartner;
-    private int placeId;
+    private int businessPartnerId;
+    private String namePartner;
+    private int phone;
+    private Place placeId;
 
-    public BusinessPartner(int businesspartnerId, String namepartner, int placeId) {
-        this.setBusinesspartnerId(businesspartnerId);
-        this.setNamepartner(namepartner);
-        this.setPlaceId(placeId);
+
+    public BusinessPartner(int businessPartnerId, String namePartner, int phone, Place placeId) {
+        this.businessPartnerId = businessPartnerId;
+        this.namePartner = namePartner;
+        this.phone = phone;
+        this.placeId = placeId;
     }
 
-    public int getBusinesspartnerId() {
-        return businesspartnerId;
+
+    public int getBusinessPartnerId() {
+        return businessPartnerId;
     }
 
-    public void setBusinesspartnerId(int businesspartnerId) {
-        this.businesspartnerId = businesspartnerId;
+    public void setBusinessPartnerId(int businessPartnerId) {
+        this.businessPartnerId = businessPartnerId;
     }
 
-    public String getNamepartner() {
-        return namepartner;
+    public String getNamePartner() {
+        return namePartner;
     }
 
-    public void setNamepartner(String namepartner) {
-        this.namepartner = namepartner;
+    public BusinessPartner setNamePartner(String namePartner) {
+        this.namePartner = namePartner;
+        return this ;
     }
 
-    public int getPlaceId() {
+    public int getPhone() {
+        return phone;
+    }
+
+    public BusinessPartner setPhone(int phone) {
+        this.phone = phone;
+        return this ;
+    }
+
+    public Place getPlaceId() {
         return placeId;
     }
 
-    public void setPlaceId(int placeId) {
+    public BusinessPartner setPlaceId(Place placeId) {
         this.placeId = placeId;
+        return this;
+    }
+
+
+    public static BusinessPartner build(ResultSet resultSet, PlacesEntity placesEntity) {
+        try {
+            return new BusinessPartner(resultSet.getInt("bussines_partner_id"),
+                    resultSet.getString("name_partner"),
+                    resultSet.getInt("phone"),
+                    placesEntity.findById(resultSet.getInt("place_id")));
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        }
+
     }
 }

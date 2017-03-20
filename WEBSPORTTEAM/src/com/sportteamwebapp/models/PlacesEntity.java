@@ -1,44 +1,42 @@
 package com.sportteamwebapp.models;
 
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by yeyo on 18/03/2017.
+ * Created by yeyo on 19/03/2017.
  */
-public class SportsEntity extends  BaseEntity{
+public class PlacesEntity extends BaseEntity{
+    private static String DEFAULT_SQL = "SELECT * FROM db_sport.places";
 
-    private static String DEFAULT_SQL = "SELECT * FROM db_sport.regions";
-
-    public List<Sport> findAll() {
+    public List<Place> findAll() {
         return findByCriteria(DEFAULT_SQL);
     }
 
-    public Sport findById(int id) {
-        List<Sport> sports = findByCriteria(DEFAULT_SQL + " WHERE sport_id = " + String.valueOf(id));
-        return (sports != null) ? sports.get(0) : null;
+    public Place findById(int id) {
+        List<Place> places = findByCriteria(DEFAULT_SQL + " WHERE place_id = " + String.valueOf(id));
+        return (places != null) ? places.get(0) : null;
     }
 
 
-    public Sport findByName(String name) {
-        List<Sport> sports = findByCriteria(DEFAULT_SQL + " WHERE sport_name = '" + name + "'");
-        return (sports.isEmpty()) ? null : sports.get(0);
+    public Place findByName(String name) {
+        List<Place> places = findByCriteria(DEFAULT_SQL + " WHERE location = '" + name + "'");
+        return (places.isEmpty()) ? null : places.get(0);
     }
 
-    private List<Sport> findByCriteria(String sql) {
-        List<Sport> sports;
+    private List<Place> findByCriteria(String sql) {
+        List<Place> places;
         if(getConnection() != null) {
-            sports = new ArrayList<>();
+            places = new ArrayList<>();
             try {
                 ResultSet resultSet = getConnection().createStatement().executeQuery(sql);
                 while(resultSet.next()) {
-                    Sport sport = Sport.build(resultSet);
-                    sports.add(sport);
+                    Place place = Place.build(resultSet);
+                    places.add(place);
                 }
-                return sports;
+                return places;
             } catch (SQLException e) {
                 e.printStackTrace();
             }
@@ -47,7 +45,7 @@ public class SportsEntity extends  BaseEntity{
     }
 
     private int getMaxId() {
-        String sql = "SELECT MAX(sport_id) as max_id FROM sports";
+        String sql = "SELECT MAX(place_id) as max_id FROM places";
         if(getConnection() != null) {
             try {
                 ResultSet resultSet = getConnection().createStatement().executeQuery(sql);
@@ -58,17 +56,17 @@ public class SportsEntity extends  BaseEntity{
         }
         return 0;
     }
-    public Sport create(String name) {
+    public Place create(String name) {
         if(findByName(name) == null) {
             if(getConnection() != null) {
-                String sql = "INSERT INTO sports(sport_id, sport_name) VALUES(" +
+                String sql = "INSERT INTO places(place_id, location) VALUES(" +
                         String.valueOf(getMaxId()+1) + ", '" +
                         name + "')";
                 try {
                     int results = getConnection().createStatement().executeUpdate(sql);
                     if(results > 0) {
-                        Sport sport = new Sport(getMaxId(), name);
-                        return sport;
+                        Place place = new Place(getMaxId(), name);
+                        return place;
                     }
                 } catch (SQLException e) {
                     e.printStackTrace();
@@ -90,17 +88,17 @@ public class SportsEntity extends  BaseEntity{
     }
 
     public boolean delete(int id) {
-        return updateByCriteria("DELETE FROM regions WHERE sport_id = "+
+        return updateByCriteria("DELETE FROM places WHERE place_id = "+
                 String.valueOf(id)) > 0;
     }
 
     public boolean delete(String name) {
-        return updateByCriteria("DELETE FROM regions WHERE sport_name = '"+
+        return updateByCriteria("DELETE FROM places WHERE location = '"+
                 name + "'") > 0;
     }
 
-    public boolean update(Sport sport) {
-        return updateByCriteria("UPDATE sports SET sport_name = '" +
-                sport.getSportName() + "' WHERE sport_id = " + String.valueOf(sport.getSportId())) > 0;
+    public boolean update(Place place) {
+        return updateByCriteria("UPDATE places SET location = '" +
+                place.getLocation() + "' WHERE place_id = " + String.valueOf(place.getPlaceId())) > 0;
     }
 }

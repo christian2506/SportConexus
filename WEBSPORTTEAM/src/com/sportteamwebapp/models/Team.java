@@ -11,9 +11,9 @@ public class Team {
     private String name ;
     private int rank ;
     private int numberOfVictory;
-    private int sportId;
+    private Sport sportId;
 
-    public Team(int teamId, String name, int rank, int numberOfVictory, int sportId) {
+    public Team(int teamId, String name, int rank, int numberOfVictory, Sport sportId) {
         this.teamId = teamId;
         this.name = name;
         this.rank = rank;
@@ -25,53 +25,63 @@ public class Team {
         return teamId;
     }
 
-    public void setTeamId(int teamId) {
+    public Team setTeamId(int teamId) {
         this.teamId = teamId;
+        return this;
+
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public Team setName(String name) {
         this.name = name;
+        return this;
+
     }
 
     public int getRank() {
         return rank;
     }
 
-    public void setRank(int rank) {
+    public Team setRank(int rank) {
         this.rank = rank;
+        return this;
+
     }
 
     public int getNumberOfVictory() {
         return numberOfVictory;
     }
 
-    public void setNumberOfVictory(int numberOfVictory) {
+    public Team setNumberOfVictory(int numberOfVictory) {
         this.numberOfVictory = numberOfVictory;
+        return this;
+
     }
 
-    public int getSportId() {
+    public Sport getSportId() {
         return sportId;
     }
 
-    public void setSportId(int sportId) {
+    public Team setSportId(Sport sportId) {
         this.sportId = sportId;
+        return this;
     }
-
-    public static Team build(ResultSet resultSet) {
+    public static Team build(ResultSet resultSet, SportsEntity sportsEntity) {
         try {
             return new Team(resultSet.getInt("team_id"),
-
                     resultSet.getString("team_name"),
-                    resultSet.getInt("team_rank"),
-                    resultSet.getInt("number_victory"),
+                    resultSet.getInt("team_name"),
+                    resultSet.getInt("team_name"),
                     sportsEntity.findById(resultSet.getInt("sport_id")));
         } catch (SQLException e) {
             e.printStackTrace();
             return null;
         }
     }
+
+
+
 }

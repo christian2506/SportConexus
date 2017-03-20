@@ -6,39 +6,39 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by yeyo on 18/03/2017.
+ * Created by yeyo on 19/03/2017.
  */
-public class TeamsEntity extends BaseEntity {
-    private static String DEFAULT_SQL = "SELECT * FROM db_sport.teams";
+public class BusinessPartnersEntity extends  BaseEntity{
+    private static String DEFAULT_SQL = "SELECT * FROM db_sport.business_partners";
     private SportsEntity sportsEntity;
 
-    public List<Team> findAll() {
+    public List<BusinessPartner> findAll() {
         return findByCriteria(DEFAULT_SQL);
     }
 
-    public Team findById(int id) {
-        List<Team> teams = findByCriteria(DEFAULT_SQL +
-                " WHERE team_id = '" +String.valueOf(id) + "'");
-        return (teams != null) ? teams.get(0) : null;
+    public BusinessPartner findById(int id) {
+        List<BusinessPartner> businessPartners = findByCriteria(DEFAULT_SQL +
+                " WHERE business_partner_id = '" +String.valueOf(id) + "'");
+        return (businessPartners != null) ? businessPartners.get(0) : null;
     }
 
-    public Team findByName(String name) {
-        List<Team> teams = findByCriteria(DEFAULT_SQL +
-                " WHERE team_name = '" + name + "'");
-        return (teams.isEmpty()) ? null : teams.get(0);
+    public BusinessPartner findByName(String name) {
+        List<BusinessPartner> businessPartners = findByCriteria(DEFAULT_SQL +
+                " WHERE name_partner = '" + name + "'");
+        return (businessPartners.isEmpty()) ? null : businessPartners.get(0);
     }
 
-    private List<Team> findByCriteria(String sql) {
-        List<Team> teams;
+    private List<BusinessPartner> findByCriteria(String sql) {
+        List<BusinessPartner> businessPartners;
         if(getConnection() != null) {
-            teams = new ArrayList<>();
+            businessPartners = new ArrayList<>();
             try {
                 ResultSet resultSet = getConnection().createStatement().executeQuery(sql);
                 while(resultSet.next()) {
-                    Team team = Team.build(resultSet , getSportsEntity());
-                    teams.add(team);
+                    BusinessPartner businessPartner = BusinessPartner.build(resultSet , getPlacesEntity());
+                    businessPartners.add(businessPartner);
                 }
-                return teams;
+                return businessPartners;
             } catch (SQLException e) {
                 e.printStackTrace();
             }
@@ -47,14 +47,14 @@ public class TeamsEntity extends BaseEntity {
     }
 
 
-    public SportsEntity getSportsEntity() {return sportsEntity;}
+    public PlacesEntity getPlacesEntity() {return placesEntity;}
 
 
-    public void setSportsEntity(SportsEntity sportsEntity) {
-        this.sportsEntity = sportsEntity;
+    public void setPlacesEntity(PlacesEntity placesEntity) {
+        this.placesEntity = placesEntity;
     }
 
-    public Team create(int id, String name,  int rank,int victory, int sportId) {
+    public BusinessPartner create(int id, String name,  int phone, int placeId) {
         if(findByName(name) == null) {
             if(getConnection() != null) {
                 String sql = "INSERT INTO teams(team_id, team_name, team_rank , number_victory , sport_id) VALUES('" +
@@ -63,7 +63,7 @@ public class TeamsEntity extends BaseEntity {
                 try {
                     int results = getConnection().createStatement().executeUpdate(sql);
                     if(results > 0) {
-                        Team team = new Team(id, name,rank,victory , getSportsEntity().findById(sportId));
+                        Team team = new Team(id, name,rank,victory , getPlacesEntity().findById(sportId));
                         return team;
                     }
                 } catch (SQLException e) {
@@ -98,5 +98,3 @@ public class TeamsEntity extends BaseEntity {
 
 
 }
-
-
