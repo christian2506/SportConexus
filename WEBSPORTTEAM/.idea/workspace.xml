@@ -37,61 +37,26 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="679">
+              <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/about.html">
+      <file leaf-file-name="BusinessPartner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/BusinessPartner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2856">
-              <caret line="168" column="47" lean-forward="false" selection-start-line="168" selection-start-column="47" selection-end-line="168" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Match.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/Match.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state relative-caret-position="543">
+              <caret line="59" column="74" lean-forward="true" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
               <folding>
-                <element signature="e#464#465#0" expanded="false" />
-                <element signature="e#494#495#0" expanded="false" />
-                <element signature="e#537#538#0" expanded="false" />
-                <element signature="e#575#576#0" expanded="false" />
-                <element signature="e#613#614#0" expanded="false" />
-                <element signature="e#647#648#0" expanded="false" />
-                <element signature="e#701#702#0" expanded="false" />
-                <element signature="e#747#748#0" expanded="false" />
-                <element signature="e#779#780#0" expanded="false" />
-                <element signature="e#807#808#0" expanded="false" />
-                <element signature="e#849#850#0" expanded="false" />
-                <element signature="e#883#884#0" expanded="false" />
-                <element signature="e#913#914#0" expanded="false" />
-                <element signature="e#942#943#0" expanded="false" />
-                <element signature="e#983#984#0" expanded="false" />
-                <element signature="e#1019#1020#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/UserEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeamsEntity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TeamsEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/TeamsEntity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
@@ -102,6 +67,57 @@
                 <element signature="e#1584#1585#0" expanded="true" />
                 <element signature="e#1632#1633#0" expanded="true" />
                 <marker date="1489988206873" expanded="true" signature="1828:2105" ph="INSERT INTO teams... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserEntity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/UserEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Place.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/Place.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reservation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/Reservation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,28 +139,11 @@
       <file leaf-file-name="SportSpace.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/SportSpace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/Sport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="306">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#372#373#0" expanded="false" />
-                <element signature="e#402#403#0" expanded="false" />
-                <element signature="e#445#446#0" expanded="false" />
-                <element signature="e#483#484#0" expanded="false" />
-                <element signature="e#519#520#0" expanded="false" />
-                <element signature="e#551#552#0" expanded="false" />
-                <element signature="e#601#602#0" expanded="false" />
-                <element signature="e#643#644#0" expanded="false" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,12 +159,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/portfolio.jsp">
+      <file leaf-file-name="Sport.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/Sport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="220">
+              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,6 +190,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/sportteamwebapp/models/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/web/about.html" />
+        <option value="$PROJECT_DIR$/src/com/sportteamwebapp/models/Match.java" />
+        <option value="$PROJECT_DIR$/src/com/sportteamwebapp/models/TeamsEntity.java" />
+        <option value="$PROJECT_DIR$/src/com/sportteamwebapp/models/Team.java" />
+        <option value="$PROJECT_DIR$/src/com/sportteamwebapp/models/SportsEntity.java" />
+        <option value="$PROJECT_DIR$/src/com/sportteamwebapp/models/PlacesEntity.java" />
         <option value="$PROJECT_DIR$/src/com/sportteamwebapp/models/BusinessPartner.java" />
         <option value="$PROJECT_DIR$/src/com/sportteamwebapp/models/Place.java" />
         <option value="$PROJECT_DIR$/src/com/sportteamwebapp/models/Reservation.java" />
@@ -195,11 +203,6 @@
         <option value="$PROJECT_DIR$/src/com/sportteamwebapp/models/SportSpace.java" />
         <option value="$PROJECT_DIR$/src/com/sportteamwebapp/models/User.java" />
         <option value="$PROJECT_DIR$/src/com/sportteamwebapp/models/UserEntity.java" />
-        <option value="$PROJECT_DIR$/web/about.html" />
-        <option value="$PROJECT_DIR$/src/com/sportteamwebapp/models/Match.java" />
-        <option value="$PROJECT_DIR$/src/com/sportteamwebapp/models/TeamsEntity.java" />
-        <option value="$PROJECT_DIR$/src/com/sportteamwebapp/models/Team.java" />
-        <option value="$PROJECT_DIR$/src/com/sportteamwebapp/models/SportsEntity.java" />
       </list>
     </option>
   </component>
@@ -781,16 +784,16 @@
       <workItem from="1489985720285" duration="345000" />
       <workItem from="1489986336192" duration="198000" />
       <workItem from="1489987608726" duration="7000" />
-      <workItem from="1489987752126" duration="706000" />
+      <workItem from="1489987752126" duration="1178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4980000" />
+    <option name="totallyTimeSpent" value="5452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -813,7 +816,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.246875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.246875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -905,24 +908,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="e#464#465#0" expanded="false" />
-            <element signature="e#494#495#0" expanded="false" />
-            <element signature="e#537#538#0" expanded="false" />
-            <element signature="e#575#576#0" expanded="false" />
-            <element signature="e#613#614#0" expanded="false" />
-            <element signature="e#647#648#0" expanded="false" />
-            <element signature="e#701#702#0" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#779#780#0" expanded="false" />
-            <element signature="e#807#808#0" expanded="false" />
-            <element signature="e#849#850#0" expanded="false" />
-            <element signature="e#883#884#0" expanded="false" />
-            <element signature="e#913#914#0" expanded="false" />
-            <element signature="e#942#943#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#1019#1020#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -970,24 +956,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="e#464#465#0" expanded="false" />
-            <element signature="e#494#495#0" expanded="false" />
-            <element signature="e#537#538#0" expanded="false" />
-            <element signature="e#575#576#0" expanded="false" />
-            <element signature="e#613#614#0" expanded="false" />
-            <element signature="e#647#648#0" expanded="false" />
-            <element signature="e#701#702#0" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#779#780#0" expanded="false" />
-            <element signature="e#807#808#0" expanded="false" />
-            <element signature="e#849#850#0" expanded="false" />
-            <element signature="e#883#884#0" expanded="false" />
-            <element signature="e#913#914#0" expanded="false" />
-            <element signature="e#942#943#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#1019#1020#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,28 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/BusinessPartner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/Place.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/Reservation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1139,70 +1086,81 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UserEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/PlacesEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1489988714761" expanded="true" signature="1435:1477" ph="SELECT MAX(p... places" />
+            <marker date="1489988714761" expanded="true" signature="1968:2115" ph="INSERT INTO places... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/Match.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="322">
           <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/BusinessPartner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="59" column="74" lean-forward="true" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
           <folding>
-            <element signature="e#464#465#0" expanded="false" />
-            <element signature="e#494#495#0" expanded="false" />
-            <element signature="e#537#538#0" expanded="false" />
-            <element signature="e#575#576#0" expanded="false" />
-            <element signature="e#613#614#0" expanded="false" />
-            <element signature="e#647#648#0" expanded="false" />
-            <element signature="e#701#702#0" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#779#780#0" expanded="false" />
-            <element signature="e#807#808#0" expanded="false" />
-            <element signature="e#849#850#0" expanded="false" />
-            <element signature="e#883#884#0" expanded="false" />
-            <element signature="e#913#914#0" expanded="false" />
-            <element signature="e#942#943#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#1019#1020#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/Place.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/Reservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/Sport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="220">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#402#403#0" expanded="false" />
-            <element signature="e#445#446#0" expanded="false" />
-            <element signature="e#483#484#0" expanded="false" />
-            <element signature="e#519#520#0" expanded="false" />
-            <element signature="e#551#552#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#643#644#0" expanded="false" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="78" column="40" lean-forward="false" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/SportSpace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1217,10 +1175,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/User.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/SportSpace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="78" column="40" lean-forward="false" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1236,6 +1205,22 @@
             <element signature="e#1632#1633#0" expanded="true" />
             <marker date="1489988206873" expanded="true" signature="1828:2105" ph="INSERT INTO teams... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sportteamwebapp/models/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

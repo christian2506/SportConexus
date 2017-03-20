@@ -6,7 +6,6 @@ import java.sql.SQLException;
 import java.util.List;
 
 public class User{
-
     private int userId;
     private String password;
     private String firstName;
@@ -28,14 +27,6 @@ public class User{
         this.dni = dni;
         this.teamId = teamId;
     }
-
-    public User(List<User> users) {
-    }
-
-    public User() {
-
-    }
-
 
     public int getUserId() {
         return userId;
@@ -108,6 +99,7 @@ public class User{
     public void setTeamId(int teamId) {
         this.teamId = teamId;
     }
+
 
 
 }
