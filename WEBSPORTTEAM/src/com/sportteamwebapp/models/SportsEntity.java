@@ -27,7 +27,7 @@ public class SportsEntity extends  BaseEntity{
         return (sports.isEmpty()) ? null : sports.get(0);
     }
 
-    private List<Sport> findByCriteria(String sql) {
+    private static List<Sport> findByCriteria(String sql) {
         List<Sport> sports;
         if(getConnection() != null) {
             sports = new ArrayList<>();

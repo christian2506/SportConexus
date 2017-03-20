@@ -7,9 +7,9 @@ import java.sql.SQLException;
  * Created by GrupoUTP on 01/10/2016.
  */
 public class BaseEntity {
-    private Connection connection;
+    private static Connection connection;
 
-    public Connection getConnection() {
+    public static Connection getConnection() {
         return connection;
     }
 
