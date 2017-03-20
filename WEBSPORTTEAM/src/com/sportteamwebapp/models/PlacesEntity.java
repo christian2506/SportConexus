@@ -60,7 +60,7 @@ public class PlacesEntity extends BaseEntity {
         if(findByName(name) == null) {
             if(getConnection() != null) {
                 String sql = "INSERT INTO places(place_id, location) VALUES(" +
-                        String.valueOf(getMaxId()+1) + ", '" +
+                        Integer.toString(getMaxId()+1) + ", '" +
                         name + "')";
                 try {
                     int results = getConnection().createStatement().executeUpdate(sql);
@@ -89,7 +89,7 @@ public class PlacesEntity extends BaseEntity {
 
     public boolean delete(int id) {
         return updateByCriteria("DELETE FROM places WHERE place_id = "+
-                String.valueOf(id)) > 0;
+                Integer.toString(id)) > 0;
     }
 
     public boolean delete(String name) {
@@ -99,6 +99,6 @@ public class PlacesEntity extends BaseEntity {
 
     public boolean update(Place place) {
         return updateByCriteria("UPDATE places SET location = '" +
-                place.getLocation() + "' WHERE place_id = " + String.valueOf(place.getPlaceId())) > 0;
+                place.getLocation() + "' WHERE place_id = " + Integer.toString(place.getPlaceId())) > 0;
     }
 }

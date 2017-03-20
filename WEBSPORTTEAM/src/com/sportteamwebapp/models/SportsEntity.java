@@ -62,7 +62,7 @@ public class SportsEntity extends  BaseEntity{
         if(findByName(name) == null) {
             if(getConnection() != null) {
                 String sql = "INSERT INTO sports(sport_id, sport_name) VALUES(" +
-                        String.valueOf(getMaxId()+1) + ", '" +
+                        Integer.toString(getMaxId()+1) + ", '" +
                         name + "')";
                 try {
                     int results = getConnection().createStatement().executeUpdate(sql);
@@ -90,18 +90,18 @@ public class SportsEntity extends  BaseEntity{
     }
 
     public boolean delete(int id) {
-        return updateByCriteria("DELETE FROM regions WHERE sport_id = "+
-                String.valueOf(id)) > 0;
+        return updateByCriteria("DELETE FROM sports WHERE sport_id = "+
+                Integer.toString(id)) > 0;
     }
 
     public boolean delete(String name) {
-        return updateByCriteria("DELETE FROM regions WHERE sport_name = '"+
+        return updateByCriteria("DELETE FROM sports WHERE sport_name = '"+
                 name + "'") > 0;
     }
 
     public boolean update(Sport sport) {
         return updateByCriteria("UPDATE sports SET sport_name = '" +
-                sport.getSportName() + "' WHERE sport_id = " + String.valueOf(sport.getSportId())) > 0;
+                sport.getSportName() + "' WHERE sport_id = " + Integer.toString(sport.getSportId())) > 0;
     }
 }
 

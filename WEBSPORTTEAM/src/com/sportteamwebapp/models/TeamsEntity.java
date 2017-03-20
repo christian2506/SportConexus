@@ -54,16 +54,30 @@ public class TeamsEntity extends BaseEntity {
         this.sportsEntity = sportsEntity;
     }
 
-    public Team create(int id, String name,  int rank,int victory, int sportId) {
+
+    private int getMaxId() {
+        String sql = "SELECT MAX(team_id) as max_id FROM teams";
+        if(getConnection() != null) {
+            try {
+                ResultSet resultSet = getConnection().createStatement().executeQuery(sql);
+                return resultSet.next() ? resultSet.getInt(1) : 0;
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+        return 0;
+    }
+
+    public Team create( String name,  int rank,int victory, int sportId) {
         if(findByName(name) == null) {
             if(getConnection() != null) {
-                String sql = "INSERT INTO teams(team_id, team_name, team_rank , number_victory , sport_id) VALUES('" +
-                        String.valueOf(id) + "', '" +
-                        name + "', " +  String.valueOf(rank) + "', '"+ String.valueOf(victory) + "', '" + String.valueOf(sportId) + ")";
+                String sql = "INSERT INTO teams(team_id, team_name, team_rank , number_victory , sport_id) VALUES(" +
+                        Integer.toString(getMaxId()+1) + ", '" +
+                        name + "' , " +  Integer.toString(rank) + ", "+ Integer.toString(victory) + "," + Integer.toString(sportId) + ")";
                 try {
                     int results = getConnection().createStatement().executeUpdate(sql);
                     if(results > 0) {
-                        Team team = new Team(id, name,rank,victory , getSportsEntity().findById(sportId));
+                        Team team = new Team(getMaxId(), name,rank,victory , getSportsEntity().findById(sportId));
                         return team;
                     }
                 } catch (SQLException e) {
@@ -85,15 +99,16 @@ public class TeamsEntity extends BaseEntity {
         return 0;
     }
 
-    public boolean delete(String id) {
-        return updateByCriteria("DELETE FROM teams WHERE team_id = '"+
-                id + "'") > 0;
+    public boolean delete(int id) {
+        return updateByCriteria("DELETE FROM teams WHERE team_id = "+
+                Integer.toString(id) ) > 0;
     }
 
 
     public boolean update(Team team) {
-        return updateByCriteria("UPDATE team SET team_name = '" +
-                team.getName() + "' WHERE team_id = '" + team.getTeamId() + "'") > 0;
+        return updateByCriteria("UPDATE teams SET team_name = '" +
+                team.getName() + "' ,team_rank = " +Integer.toString(team.getRank()) +
+                " ,  number_victory = "+ Integer.toString(team.getNumberOfVictory())+" WHERE team_id = " +Integer.toString(team.getTeamId()) ) > 0;
     }
 
 

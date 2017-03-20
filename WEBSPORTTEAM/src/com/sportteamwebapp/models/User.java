@@ -3,6 +3,7 @@ package com.sportteamwebapp.models;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Date;
 import java.util.List;
 
 public class User{
@@ -10,23 +11,26 @@ public class User{
     private String password;
     private String firstName;
     private String lastName;
+    private int age;
     private int phone;
     private String email;
     private String gender;
     private int dni;
-    private int teamId;
+    private Team teamId;
 
-    public User(int userId, String password, String firstName, String lastName, int phone, String email, String gender, int dni, int teamId) {
+    public User(int userId, String password, String firstName, String lastName, int age, int phone, String email, String gender, int dni, Team teamId) {
         this.userId = userId;
         this.password = password;
         this.firstName = firstName;
         this.lastName = lastName;
+        this.age = age;
         this.phone = phone;
         this.email = email;
         this.gender = gender;
         this.dni = dni;
         this.teamId = teamId;
     }
+
 
     public int getUserId() {
         return userId;
@@ -58,6 +62,14 @@ public class User{
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public int getPhone() {
@@ -92,15 +104,32 @@ public class User{
         this.dni = dni;
     }
 
-    public int getTeamId() {
+    public Team getTeamId() {
         return teamId;
     }
 
-    public void setTeamId(int teamId) {
+    public void setTeamId(Team teamId) {
         this.teamId = teamId;
     }
 
+    public static User build(ResultSet resultSet, TeamsEntity teamsEntity) {
+        try {
+            return new User(resultSet.getInt("user_id"),
+                    resultSet.getString("password"),
+                    resultSet.getString("first_name"),
+                    resultSet.getString("last_name"),
+                    resultSet.getInt("age"),
+                    resultSet.getInt("phone"),
+                    resultSet.getString("email"),
+                    resultSet.getString("gender"),
+                    resultSet.getInt("dni"),
+                    teamsEntity.findById(resultSet.getInt("sport_id")));
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        }
 
+    }
 
 }
 
