@@ -19,9 +19,9 @@
       </configuration>
       <facet type="Struts2" name="Struts 2">
         <configuration>
-          <fileset id="s2fileset" name="My Fileset " removed="false">
+          <fileset id="s2fileset2" name="My Fileset 2" removed="false">
+            <file>file://$MODULE_DIR$/src/struts.xml</file>
             <file>jar://$MODULE_DIR$/lib/struts2-core-2.3.32.jar!/struts-default.xml</file>
-            <file>jar://$MODULE_DIR$/lib/struts2-spring-plugin-2.3.32.jar!/struts-plugin.xml</file>
           </fileset>
           <propertiesKeys disabled="false" />
         </configuration>
