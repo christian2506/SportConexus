@@ -18,7 +18,7 @@ public class TeamsEntity extends BaseEntity {
 
     public Team findById(int id) {
         List<Team> teams = findByCriteria(DEFAULT_SQL +
-                " WHERE team_id = '" +String.valueOf(id) + "'");
+                " WHERE team_id = '" + id + "'");
         return (teams != null) ? teams.get(0) : null;
     }
 
@@ -35,7 +35,7 @@ public class TeamsEntity extends BaseEntity {
             try {
                 ResultSet resultSet = getConnection().createStatement().executeQuery(sql);
                 while(resultSet.next()) {
-                    Team team = Team.build(resultSet , getSportsEntity());
+                    Team team = new Team(teams);
                     teams.add(team);
                 }
                 return teams;
@@ -46,9 +46,9 @@ public class TeamsEntity extends BaseEntity {
         return null;
     }
 
-
-    public SportsEntity getSportsEntity() {return sportsEntity;}
-
+    public SportsEntity getSportsEntity() {
+        return sportsEntity;
+    }
 
     public void setSportsEntity(SportsEntity sportsEntity) {
         this.sportsEntity = sportsEntity;
@@ -58,12 +58,12 @@ public class TeamsEntity extends BaseEntity {
         if(findByName(name) == null) {
             if(getConnection() != null) {
                 String sql = "INSERT INTO teams(team_id, team_name, team_rank , number_victory , sport_id) VALUES('" +
-                        String.valueOf(id) + "', '" +
-                        name + "', " +  String.valueOf(rank) + "', '"+ String.valueOf(victory) + "', '" + String.valueOf(sportId) + ")";
+                        id + "', '" +
+                        name + "', " + rank + "', '"+victory + "', '" + String.valueOf(sportId) + ")";
                 try {
                     int results = getConnection().createStatement().executeUpdate(sql);
                     if(results > 0) {
-                        Team team = new Team(id, name,rank,victory , getSportsEntity().findById(sportId));
+                        Team team = new Team(id, name,rank,victory ,sportId);
                         return team;
                     }
                 } catch (SQLException e) {

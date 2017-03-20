@@ -17,18 +17,17 @@ public class SportsEntity extends  BaseEntity{
         return findByCriteria(DEFAULT_SQL);
     }
 
-    public Sport findById(int id) {
+    public static Sport findById(int id) {
         List<Sport> sports = findByCriteria(DEFAULT_SQL + " WHERE sport_id = " + String.valueOf(id));
         return (sports != null) ? sports.get(0) : null;
     }
-
 
     public Sport findByName(String name) {
         List<Sport> sports = findByCriteria(DEFAULT_SQL + " WHERE sport_name = '" + name + "'");
         return (sports.isEmpty()) ? null : sports.get(0);
     }
 
-    private List<Sport> findByCriteria(String sql) {
+    private static List<Sport> findByCriteria(String sql) {
         List<Sport> sports;
         if(getConnection() != null) {
             sports = new ArrayList<>();
@@ -104,3 +103,4 @@ public class SportsEntity extends  BaseEntity{
                 sport.getSportName() + "' WHERE sport_id = " + String.valueOf(sport.getSportId())) > 0;
     }
 }
+

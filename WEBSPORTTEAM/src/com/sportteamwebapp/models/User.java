@@ -3,6 +3,7 @@ package com.sportteamwebapp.models;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 public class User{
 
@@ -27,6 +28,14 @@ public class User{
         this.dni = dni;
         this.teamId = teamId;
     }
+
+    public User(List<User> users) {
+    }
+
+    public User() {
+
+    }
+
 
     public int getUserId() {
         return userId;
@@ -102,3 +111,4 @@ public class User{
 
 
 }
+
