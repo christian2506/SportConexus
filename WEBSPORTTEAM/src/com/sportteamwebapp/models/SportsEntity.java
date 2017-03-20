@@ -17,7 +17,7 @@ public class SportsEntity extends  BaseEntity{
         return findByCriteria(DEFAULT_SQL);
     }
 
-    public Sport findById(int id) {
+    public static Sport findById(int id) {
         List<Sport> sports = findByCriteria(DEFAULT_SQL + " WHERE sport_id = " + String.valueOf(id));
         return (sports != null) ? sports.get(0) : null;
     }

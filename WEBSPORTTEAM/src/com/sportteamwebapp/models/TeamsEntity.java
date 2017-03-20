@@ -35,7 +35,7 @@ public class TeamsEntity extends BaseEntity {
             try {
                 ResultSet resultSet = getConnection().createStatement().executeQuery(sql);
                 while(resultSet.next()) {
-                    Team team = Team.build(resultSet, getSportsEntity());
+                    Team team = new Team(teams);
                     teams.add(team);
                 }
                 return teams;
@@ -63,7 +63,7 @@ public class TeamsEntity extends BaseEntity {
                 try {
                     int results = getConnection().createStatement().executeUpdate(sql);
                     if(results > 0) {
-                        Team team = new Team(id, name,rank,victory ,getSportsEntity().findById(sportId));
+                        Team team = new Team(id, name,rank,victory ,sportId);
                         return team;
                     }
                 } catch (SQLException e) {

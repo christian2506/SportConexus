@@ -27,7 +27,7 @@ private List<User> findByCriteria(String sql){
        try{
            ResultSet resultSet = getConnection().createStatement().executeQuery(sql);
            while (resultSet.next()){
-               User user = User.build(resultSet);
+               User user = new User(users);
                users.add(user);
            }
            return users;
@@ -50,22 +50,24 @@ private int getMaxId(){
     }
     return 0 ;
 }
+
+
 public User create (String firstname){
-   if(findByName(firstname) == null{
+   if(null == findByName(firstname))
        if(getConnection() !=null){
            String sql = " INSERT INTO users(user_id, firstname) VALUES("+
                    String.valueOf(getMaxId()+1)+" ,'"+firstname + "')";
            try{
                int results = getConnection().createStatement().executeUpdate(sql);
                if(results >0){
-                   User user = new User(getMaxId(),firstname);
+                   User user = new User();
                    return  user;
                }
            }catch (SQLException e){
                e.printStackTrace();
            }
        }
-    }
     return null;
 }
+
 }

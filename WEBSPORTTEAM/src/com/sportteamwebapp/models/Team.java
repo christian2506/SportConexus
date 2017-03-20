@@ -2,6 +2,7 @@ package com.sportteamwebapp.models;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 /**
  * Created by yeyo on 10/03/2017.
@@ -19,6 +20,14 @@ public class Team {
         this.rank = rank;
         this.numberOfVictory = numberOfVictory;
         this.sportId = sportId;
+    }
+
+    public Team(List<Team>teams) {
+
+    }
+
+    public Team(int team_id, String team_name, int team_rank, int number_victory, Sport sport_id) {
+
     }
 
     public int getTeamId() {
@@ -68,7 +77,7 @@ public class Team {
                     resultSet.getString("team_name"),
                     resultSet.getInt("team_rank"),
                     resultSet.getInt("number_victory"),
-                    sportsEntity.findById(resultSet.getInt("sport_id")));
+                    SportsEntity.findById(resultSet.getInt("sport_id")));
         } catch (SQLException e) {
             e.printStackTrace();
             return null;
