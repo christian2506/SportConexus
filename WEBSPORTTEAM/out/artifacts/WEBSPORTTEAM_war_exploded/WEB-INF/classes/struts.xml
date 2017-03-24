@@ -8,7 +8,6 @@
 
     <package name="default" extends="struts-default">
 
-
         <action name="login">
             <result>login.jsp</result>
         </action>
@@ -16,7 +15,6 @@
             <result name="success">welcome.jsp</result>
             <result name="error">showError.jsp</result>
         </action>
-
 
     </package>
 </struts>

@@ -35,8 +35,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       </div>
       <div class="agileits_w3layouts_sign_in">
         <ul>
-          <li><a href="#small-dialog" class="play-icon popup-with-zoom-anim">Sign In</a></li>
-          <li>Call us : <span>(+000) 123 234</span></li>
+          <li><a href="#small-dialog" class="play-icon popup-with-zoom-anim">Registrate</a></li>
+          <li>Contactanos : <span>(+000) 123 234</span></li>
         </ul>
       </div>
       <div class="clearfix"> </div>
@@ -83,7 +83,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //header -->
 <!-- pop-up-box -->
 <div id="small-dialog" class="mfp-hide w3ls_small_dialog wthree_pop">
-  <h3 class="agileinfo_sign">Sign In</h3>
+  <h3 class="agileinfo_sign">Registrate</h3>
   <div class="agileits_signin_form">
     <form action="#" method="post">
       <input type="email" name="email" placeholder="Your Email" required="">
@@ -91,19 +91,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       <div class="agile_remember">
         <div class="agile_remember_left">
           <div class="check">
-            <label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>remember me</label>
+            <label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>Recordar datos</label>
           </div>
         </div>
         <div class="agile_remember_right">
-          <a href="#">Forgot Password?</a>
+          <a href="#">Olvidaste tu Contraseña?</a>
         </div>
         <div class="clearfix"> </div>
       </div>
       <input type="submit" value="SIGN IN">
-      <p>Don't have an account <a href="#small-dialog1" class="play-icon popup-with-zoom-anim">Sign Up</a></p>
+      <p>No tienes una cuenta ?<a href="#small-dialog1" class="play-icon popup-with-zoom-anim">Registrate</a></p>
       <div class="w3agile_social_icons">
         <ul>
-          <li class="wthree_follow">Follow us on :</li>
+          <li class="wthree_follow">Siguenos en :</li>
           <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
           <li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
           <li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
@@ -113,7 +113,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   </div>
 </div>
 <div id="small-dialog1" class="mfp-hide w3ls_small_dialog wthree_pop">
-  <h3 class="agileinfo_sign">Sign Up</h3>
+  <h3 class="agileinfo_sign">Registro</h3>
   <div class="agileits_signin_form">
     <form action="#" method="post">
       <input type="text" name="name" placeholder="First Name" required="">
@@ -122,10 +122,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       <input type="password" name="password" placeholder="Password" required="">
       <input type="password" name="password" placeholder="Confirm Password" required="">
       <input type="submit" value="SIGN UP">
-      <p>Already a member <a href="#small-dialog" class="play-icon popup-with-zoom-anim">Sign In</a></p>
+      <p>Ya eres usuario en SportConnexus <a href="#small-dialog" class="play-icon popup-with-zoom-anim">Registrate</a></p>
       <div class="w3agile_social_icons">
         <ul>
-          <li class="wthree_follow">Follow us on :</li>
+          <li class="wthree_follow">Siguenos en :</li>
           <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
           <li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
           <li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
