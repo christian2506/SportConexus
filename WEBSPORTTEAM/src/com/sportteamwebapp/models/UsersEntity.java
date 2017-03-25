@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by CHRISTIAN on 20/03/2017.
  */
-public class UserEntity extends  BaseEntity {
+public class UsersEntity extends  BaseEntity {
 
     private static String DEFAULT_SQL = "SELECT * FROM db_sport.teams";
     private TeamsEntity teamsEntity;

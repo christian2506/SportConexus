@@ -20,7 +20,7 @@ public class SportAction {
 
 
     public String getSportsCount() {
-        sportsCount = String.valueOf(service.getSportsCount());
+        sportsCount = String.valueOf(service.getAllCount());
         return sportsCount;
     }
 
@@ -40,8 +40,13 @@ public class SportAction {
     public List<Sport> getSports() { return sports;}
 
     public String list() {
-        sports = service.findAllRegions();
+        sports = service.findAllSports();
         return "success";
     }
+
+
+
+
+
 
 }

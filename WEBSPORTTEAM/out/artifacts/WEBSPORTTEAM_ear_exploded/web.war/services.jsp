@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>SportConexus a Corporate Business </title>
+    <title>SportConnnexus</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -32,12 +32,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
         <div class="agile_header_grid">
             <div class="w3_agile_logo">
-                <h1><a href="index.jsp"><span>Sport</span>conexus</a></h1>
+                <h1><a href="index.jsp"><span>Sport</span>Connexus</a></h1>
             </div>
             <div class="agileits_w3layouts_sign_in">
                 <ul>
-                    <li><a href="#small-dialog" class="play-icon popup-with-zoom-anim">Registrate</a></li>
-                    <li>Contactanos : <span>(+000) 123 234</span></li>
+                    <li><a href="#small-dialog" class="play-icon popup-with-zoom-anim">Regístrate</a></li>
+                    <li>Contáctanos: <span>+(01) 543 5225</span></li>
                 </ul>
             </div>
             <div class="clearfix"> </div>
@@ -66,12 +66,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                                 </ul>
                             </li>
-                            <li><a href="portfolio.jsp" class="hvr-sweep-to-bottom">Portfolio</a></li>
+                            <li><a href="portfolio.jsp" class="hvr-sweep-to-bottom">Galería</a></li>
                             <li><a href="contact.html" class="hvr-sweep-to-bottom">Contactanos</a></li>
                         </ul>
                         <div class="agileinfo_search">
                             <form action="#" method="post">
-                                <input type="text" name="Search" placeholder="Type text here..." required="">
+                                <input type="text" name="Search" placeholder="Escribe texto aquí..." required="">
                                 <input type="submit" value=" ">
                             </form>
                         </div>
@@ -84,7 +84,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //header -->
 <!-- pop-up-box -->
 <div id="small-dialog" class="mfp-hide w3ls_small_dialog wthree_pop">
-    <h3 class="agileinfo_sign">Registrate</h3>
+    <h3 class="agileinfo_sign">Regístrate</h3>
     <div class="agileits_signin_form">
         <form action="#" method="post">
             <input type="email" name="email" placeholder="Your Email" required="">
@@ -123,7 +123,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <input type="password" name="password" placeholder="Password" required="">
             <input type="password" name="password" placeholder="Confirm Password" required="">
             <input type="submit" value="SIGN UP">
-            <p>Already a member <a href="#small-dialog" class="play-icon popup-with-zoom-anim">Sign In</a></p>
+            <p>Ya eres usuario en SportConnexus <a href="#small-dialog" class="play-icon popup-with-zoom-anim">Sign In</a></p>
             <div class="w3agile_social_icons">
                 <ul>
                     <li class="wthree_follow">Siguenos en :</li>
@@ -174,7 +174,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                 </div>
                 <h4>Entrenamientos</h4>
-                <p>Disponivilidad de Espacios .</p>
+                <p>Disponibilidad de Espacios .</p>
             </div>
             <div class="col-md-4 w3_agile_services_grid">
                 <div class="agile_services_grid">
@@ -187,8 +187,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <i class="fa fa-line-chart" aria-hidden="true"></i>
                     </div>
                 </div>
-                <h4>Practicas</h4>
-                <p>Sectores para practicas Interescolares.</p>
+                <h4>Prácticas deportivas</h4>
+                <p>Guiada al sector educativo (Escuelas que no cuenten con la infraestructura necesaria para sus actividades deportivas).</p>
             </div>
             <div class="col-md-4 w3_agile_services_grid">
                 <div class="agile_services_grid">
@@ -201,8 +201,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <i class="fa fa-cog" aria-hidden="true"></i>
                     </div>
                 </div>
-                <h4>Disponiblilidad de Canchas </h4>
-                <p>Practicas deportivas .</p>
+                <h4>Disponiblilidad de espacios deportivos </h4>
+                <p>Prácticas deportivas .</p>
             </div>
             <div class="clearfix"> </div>
         </div>
@@ -212,7 +212,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- services-bottom -->
 <div class="services-bottom">
     <div class="container">
-        <h3>Incentivar el deporte al publico</h3>
+        <h3>Incentivar el deporte al público</h3>
     </div>
 </div>
 <!-- //services-bottom -->
@@ -221,30 +221,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
         <div class="w3_footer_grids">
             <div class="col-md-4 w3_footer_grid">
-                <h2><a href="index.jsp"><span>Sport</span>Conexus</a></h2>
-                <p>Nuestra Web <a href="#">http:///SportConexus.com</a> Club Deportivo.</p>
+                <h2><a href="index.jsp"><span>Sport</span>Connexus</a></h2>
+                <p>Nuestra Web <a href="#">http:///SportConexus.com</a> WebSite de reservación de espacios deportivo.</p>
             </div>
             <div class="col-md-3 w3_footer_grid">
                 <div class="w3l_footer_grid">
                     <i class="fa fa-home" aria-hidden="true"></i>
                 </div>
-                <h4>Direccion</h4>
-                <p>234 main street west Building, NewYork City,F34 834.</p>
+                <h4>Dirección</h4>
+                <p>Av. José Carlos Mariátegui 375 urb. Lucyana Distrito: Los Olivos</p>
             </div>
             <div class="col-md-2 w3_footer_grid">
                 <div class="w3l_footer_grid">
                     <i class="fa fa-phone" aria-hidden="true"></i>
                 </div>
-                <h4>Llamanos</h4>
-                <p>+(123) 456 789 344 <span>+(123) 456 780 344</span></p>
+                <h4>Llamanos: </h4>
+                <p>+(01) 543 5225 <span>+(51) 982 220 552</span></p>
             </div>
             <div class="col-md-3 w3_footer_grid">
                 <div class="w3l_footer_grid">
                     <i class="fa fa-envelope" aria-hidden="true"></i>
                 </div>
-                <h4>E-mail</h4>
-                <p><a href="mailto:info@example.com">info@example1.com</a>
-                    <span><a href="mailto:info@example.com">info@example2.com</a></span></p>
+                <h4>Correos: </h4>
+                <p><a href="mailto:info@example.com">info@SportConnexus.com</a>
+                    <span><a href="mailto:info@example.com">administracion@SportConnexus.com</a></span></p>
             </div>
             <div class="clearfix"> </div>
         </div>
@@ -254,12 +254,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
         <div class="w3ls_copyright_left">
             <ul>
-                <li class="active"><a href="services.jsp">Servicios</a></li>
+                <li><a href="services.jsp">Servicios</a></li>
                 <li><a href="about.html">Acerca</a></li>
-                <li><a href="portfolio.jsp">Portfolio</a></li>
-                <li><a href="contact.html">Contactanos</a></li>
+                <li><a href="portfolio.jsp">Galería</a></li>
+                <li><a href="contact.html">Contáctanos</a></li>
             </ul>
-            <p>© 2017 SportConexus. Todos los Derechos Reservados </p>
+            <p> © 2017 SportConnexus. Todos los Derechos Reservados </p>
         </div>
         <div class="w3ls_copyright_right">
             <ul>

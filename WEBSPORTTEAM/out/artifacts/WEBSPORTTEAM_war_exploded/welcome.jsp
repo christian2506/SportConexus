@@ -9,9 +9,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Welcome</title>
+    <title>Bienvenido</title>
 </head>
 <body>
-    <p>Welcome <s:property value="userName"/> </p>
+    <p>Bienvenido <s:property value="userName"/> </p>
 </body>
 </html>

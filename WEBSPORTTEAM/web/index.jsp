@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,10 +85,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- pop-up-box -->
 <div id="small-dialog" class="mfp-hide w3ls_small_dialog wthree_pop">
   <h3 class="agileinfo_sign">Regístrate</h3>
+  <s:form action="validate">
   <div class="agileits_signin_form">
+
     <form action="#" method="post">
       <input type="email" name="email" placeholder="Your Email" required="">
       <input type="password" name="password" placeholder="Password" required="">
+
       <div class="agile_remember">
         <div class="agile_remember_left">
           <div class="check">
@@ -100,6 +104,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="clearfix"> </div>
       </div>
       <input type="submit" value="SIGN IN">
+      </s:form>
       <p>No tienes una cuenta?<a href="#small-dialog1" class="play-icon popup-with-zoom-anim">Regístrate</a></p>
       <div class="w3agile_social_icons">
         <ul>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>SportConexus a Corporate Business </title>
+    <title>SportConnnexus</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -32,12 +32,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
         <div class="agile_header_grid">
             <div class="w3_agile_logo">
-                <h1><a href="index.jsp"><span>Sport</span>conexus</a></h1>
+                <h1><a href="index.jsp"><span>Sport</span>Connexus</a></h1>
             </div>
             <div class="agileits_w3layouts_sign_in">
                 <ul>
                     <li><a href="#small-dialog" class="play-icon popup-with-zoom-anim">Registrate</a></li>
-                    <li>Contactanos : <span>(+000) 123 234</span></li>
+                    <li>Contáctanos : <span>(+01) 543 5225</span></li>
                 </ul>
             </div>
             <div class="clearfix"> </div>
@@ -66,12 +66,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                                 </ul>
                             </li>
-                            <li class="active"><a href="portfolio.jsp">Portafolio</a></li>
-                            <li><a href="contact.html" class="hvr-sweep-to-bottom">Contactanos</a></li>
+                            <li class="active"><a href="portfolio.jsp">Galería</a></li>
+                            <li><a href="contact.html" class="hvr-sweep-to-bottom">Contáctanos</a></li>
                         </ul>
                         <div class="agileinfo_search">
                             <form action="#" method="post">
-                                <input type="text" name="Search" placeholder="Type text here..." required="">
+                                <input type="text" name="Search" placeholder="Escribe texto aquí..." required="">
                                 <input type="submit" value=" ">
                             </form>
                         </div>
@@ -84,7 +84,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //header -->
 <!-- pop-up-box -->
 <div id="small-dialog" class="mfp-hide w3ls_small_dialog wthree_pop">
-    <h3 class="agileinfo_sign">Registrate</h3>
+    <h3 class="agileinfo_sign">Regístrate</h3>
     <div class="agileits_signin_form">
         <form action="#" method="post">
             <input type="email" name="email" placeholder="Your Email" required="">
@@ -155,14 +155,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script>
 <!-- banner -->
 <div class="banner1">
-    <h3>Portafolio</h3>
+    <h3>Galería</h3>
 </div>
 <!-- //banner -->
 <!-- portfolio -->
 <div class="portfolio">
     <div class="container">
-        <h3 class="agile_head">Portafolio</h3>
-        <p class="w3_agile_para">Registro de Actividades</p>
+        <h3 class="agile_head">Galería</h3>
+        <p class="w3_agile_para">Registro de actividades</p>
     </div>
     <div class="w3_agile_portfolio_grids">
         <div class="agile_portfolio_grid">
@@ -172,7 +172,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <img src="images/6.jpg" alt=" " class="img-responsive" />
                         <div class="mask"></div>
                         <div class="content">
-                            <h4>SportConexus</h4>
+                            <h4>SportConnexus</h4>
                         </div>
                     </div>
                 </a>
@@ -183,7 +183,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <img src="images/1.jpg" alt=" " class="img-responsive" />
                         <div class="mask"></div>
                         <div class="content">
-                            <h4>SportConexus</h4>
+                            <h4>SportConnexus</h4>
                         </div>
                     </div>
                 </a>
@@ -196,7 +196,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <img src="images/15.jpg" alt=" " class="img-responsive" />
                         <div class="mask"></div>
                         <div class="content">
-                            <h4>SportConexus</h4>
+                            <h4>SportConnexus</h4>
                         </div>
                     </div>
                 </a>
@@ -207,7 +207,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <img src="images/5.jpg" alt=" " class="img-responsive" />
                         <div class="mask"></div>
                         <div class="content">
-                            <h4>SportConexus</h4>
+                            <h4>SportConnexus</h4>
                         </div>
                     </div>
                 </a>
@@ -220,7 +220,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <img src="images/3.jpg" alt=" " class="img-responsive" />
                         <div class="mask"></div>
                         <div class="content">
-                            <h4>SportConexus</h4>
+                            <h4>SportConnexus</h4>
                         </div>
                     </div>
                 </a>
@@ -231,7 +231,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <img src="images/4.jpg" alt=" " class="img-responsive" />
                         <div class="mask"></div>
                         <div class="content">
-                            <h4>SportConexus</h4>
+                            <h4>SportConnexus</h4>
                         </div>
                     </div>
                 </a>
@@ -252,30 +252,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
         <div class="w3_footer_grids">
             <div class="col-md-4 w3_footer_grid">
-                <h2><a href="index.jsp"><span>Sport</span>Conexus</a></h2>
-                <p>Nuestra web <a href="#">http:///SportConexus.com</a> Club Deportivo.</p>
+                <h2><a href="index.jsp"><span>Sport</span>Connexus</a></h2>
+                <p>Nuestra web <a href="#">http:///SportConnexus.com</a> WebSite de reservación de espacios deportivo.</p>
             </div>
             <div class="col-md-3 w3_footer_grid">
                 <div class="w3l_footer_grid">
                     <i class="fa fa-home" aria-hidden="true"></i>
                 </div>
-                <h4>Direccion</h4>
-                <p>234 main street west Building, NewYork City,F34 834.</p>
+                <h4>Dirección</h4>
+                <p>Av. José Carlos Mariátegui 375 urb. Lucyana Distrito: Los Olivos</p>
             </div>
             <div class="col-md-2 w3_footer_grid">
                 <div class="w3l_footer_grid">
                     <i class="fa fa-phone" aria-hidden="true"></i>
                 </div>
-                <h4>Llamanos</h4>
-                <p>+(123) 456 789 344 <span>+(123) 456 780 344</span></p>
+                <h4>Llamanos al: </h4>
+                <p>+(01) 543 5225 <span>+(51) 982 220 552 </span></p>
             </div>
             <div class="col-md-3 w3_footer_grid">
                 <div class="w3l_footer_grid">
                     <i class="fa fa-envelope" aria-hidden="true"></i>
                 </div>
-                <h4>E-mail</h4>
-                <p><a href="mailto:info@example.com">info@example1.com</a>
-                    <span><a href="mailto:info@example.com">info@example2.com</a></span></p>
+                <h4>Correos: </h4>
+                <p><a href="mailto:info@example.com">info@SportConnexus.com</a>
+                    <span><a href="mailto:info@example.com">administracion@SportConnexus.com</a></span></p>
             </div>
             <div class="clearfix"> </div>
         </div>
@@ -287,10 +287,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <ul>
                 <li><a href="services.jsp">Servicios</a></li>
                 <li><a href="about.html">Acerca</a></li>
-                <li class="active"><a href="portfolio.jsp">Portafolio</a></li>
+                <li class="active"><a href="portfolio.jsp">Galería</a></li>
                 <li><a href="contact.html">Contactanos</a></li>
             </ul>
-            <p>© 2017 SportConexus. Todos los Derechos Reservados </p>
+            <p>© 2017 SportConnexus. Todos los Derechos Reservados </p>
         </div>
         <div class="w3ls_copyright_right">
             <ul>

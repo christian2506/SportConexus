@@ -11,6 +11,6 @@
     <title>Error</title>
 </head>
 <body>
-    <h1>Error when requesting information.</h1>
+    <h1>Error al solicitar información.</h1>
 </body>
 </html>
