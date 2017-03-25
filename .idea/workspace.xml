@@ -42,8 +42,8 @@
       <file leaf-file-name="icons.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/icons.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="240" column="170" lean-forward="false" selection-start-line="240" selection-start-column="170" selection-end-line="240" selection-end-column="170" />
+            <state relative-caret-position="183">
+              <caret line="157" column="46" lean-forward="false" selection-start-line="157" selection-start-column="46" selection-end-line="157" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -54,6 +54,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>bienvenidos</find>
+      <find>icons</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -508,7 +509,7 @@
       <updated>1489211901328</updated>
       <workItem from="1489211907496" duration="19000" />
       <workItem from="1489771143238" duration="24000" />
-      <workItem from="1490424100238" duration="3148000" />
+      <workItem from="1490424100238" duration="3272000" />
     </task>
     <task id="LOCAL-00001" summary="Change &quot;Index&quot;">
       <created>1490424336019</created>
@@ -524,11 +525,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490426325908</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Change &quot;Icons&quot;">
+      <created>1490427412003</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1490427412003</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3191000" />
+    <option name="totallyTimeSpent" value="3315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -573,7 +581,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change &quot;Index&quot;" />
     <MESSAGE value="Change &quot;Index&quot; and &quot;about&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change &quot;Index&quot; and &quot;about&quot;" />
+    <MESSAGE value="Change &quot;Icons&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change &quot;Icons&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -604,8 +613,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/icons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="240" column="170" lean-forward="false" selection-start-line="240" selection-start-column="170" selection-end-line="240" selection-end-column="170" />
+        <state relative-caret-position="183">
+          <caret line="157" column="46" lean-forward="false" selection-start-line="157" selection-start-column="46" selection-end-line="157" selection-end-column="46" />
           <folding />
         </state>
       </provider>
