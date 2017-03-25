@@ -42,8 +42,8 @@
       <file leaf-file-name="portfolio.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/portfolio.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-389">
-              <caret line="289" column="66" lean-forward="false" selection-start-line="289" selection-start-column="66" selection-end-line="289" selection-end-column="66" />
+            <state relative-caret-position="195">
+              <caret line="156" column="21" lean-forward="true" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -59,6 +59,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -67,6 +77,7 @@
       <find>icons</find>
       <find>2</find>
       <find>231</find>
+      <find>portafolio</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,6 +99,7 @@
         <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/icons.html" />
         <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/about.html" />
         <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/index.jsp" />
+        <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/login.jsp" />
         <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/portfolio.jsp" />
       </list>
     </option>
@@ -522,7 +534,7 @@
       <updated>1489211901328</updated>
       <workItem from="1489211907496" duration="19000" />
       <workItem from="1489771143238" duration="24000" />
-      <workItem from="1490424100238" duration="4250000" />
+      <workItem from="1490424100238" duration="4350000" />
     </task>
     <task id="LOCAL-00001" summary="Change &quot;Index&quot;">
       <created>1490424336019</created>
@@ -559,11 +571,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490427625514</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Change &quot;Portafolio&quot;">
+      <created>1490428518388</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1490428518388</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4293000" />
+    <option name="totallyTimeSpent" value="4393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -609,7 +628,8 @@
     <MESSAGE value="Change &quot;Index&quot;" />
     <MESSAGE value="Change &quot;Index&quot; and &quot;about&quot;" />
     <MESSAGE value="Change &quot;Icons&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change &quot;Icons&quot;" />
+    <MESSAGE value="Change &quot;Portafolio&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change &quot;Portafolio&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -646,10 +666,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/portfolio.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-389">
-          <caret line="289" column="66" lean-forward="false" selection-start-line="289" selection-start-column="66" selection-end-line="289" selection-end-column="66" />
+        <state relative-caret-position="195">
+          <caret line="156" column="21" lean-forward="true" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
           <folding />
         </state>
       </provider>
