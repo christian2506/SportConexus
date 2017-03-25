@@ -79,11 +79,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showError.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="showError.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/showError.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/welcome.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -123,6 +133,7 @@
         <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/portfolio.jsp" />
         <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/services.jsp" />
         <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/showError.jsp" />
+        <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/welcome.jsp" />
       </list>
     </option>
   </component>
@@ -556,7 +567,7 @@
       <updated>1489211901328</updated>
       <workItem from="1489211907496" duration="19000" />
       <workItem from="1489771143238" duration="24000" />
-      <workItem from="1490424100238" duration="4899000" />
+      <workItem from="1490424100238" duration="4931000" />
     </task>
     <task id="LOCAL-00001" summary="Change &quot;Index&quot;">
       <created>1490424336019</created>
@@ -614,11 +625,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490429124673</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Change &quot;Service&quot;">
+      <created>1490429159132</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1490429159132</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4942000" />
+    <option name="totallyTimeSpent" value="4974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -731,6 +749,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding />
         </state>
       </provider>
