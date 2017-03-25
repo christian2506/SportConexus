@@ -69,11 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="services.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/services.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="56">
               <caret line="273" column="6" lean-forward="false" selection-start-line="273" selection-start-column="6" selection-end-line="273" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showError.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/showError.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -112,6 +122,7 @@
         <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/login.jsp" />
         <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/portfolio.jsp" />
         <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/services.jsp" />
+        <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/showError.jsp" />
       </list>
     </option>
   </component>
@@ -545,7 +556,7 @@
       <updated>1489211901328</updated>
       <workItem from="1489211907496" duration="19000" />
       <workItem from="1489771143238" duration="24000" />
-      <workItem from="1490424100238" duration="4851000" />
+      <workItem from="1490424100238" duration="4899000" />
     </task>
     <task id="LOCAL-00001" summary="Change &quot;Index&quot;">
       <created>1490424336019</created>
@@ -596,11 +607,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490428609621</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Change &quot;Service&quot;">
+      <created>1490429124673</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1490429124673</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4894000" />
+    <option name="totallyTimeSpent" value="4942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -647,7 +665,8 @@
     <MESSAGE value="Change &quot;Index&quot; and &quot;about&quot;" />
     <MESSAGE value="Change &quot;Icons&quot;" />
     <MESSAGE value="Change &quot;Portafolio&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change &quot;Portafolio&quot;" />
+    <MESSAGE value="Change &quot;Service&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change &quot;Service&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -704,6 +723,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="273" column="6" lean-forward="false" selection-start-line="273" selection-start-column="6" selection-end-line="273" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/showError.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
           <folding />
         </state>
       </provider>
