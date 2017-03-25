@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="portfolio.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/portfolio.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="292" column="31" lean-forward="false" selection-start-line="292" selection-start-column="31" selection-end-line="292" selection-end-column="31" />
+            <state relative-caret-position="183">
+              <caret line="255" column="60" lean-forward="false" selection-start-line="255" selection-start-column="60" selection-end-line="255" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="welcome.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/welcome.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -130,10 +130,10 @@
         <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/about.html" />
         <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/index.jsp" />
         <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/login.jsp" />
-        <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/portfolio.jsp" />
         <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/services.jsp" />
         <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/showError.jsp" />
         <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/welcome.jsp" />
+        <option value="$PROJECT_DIR$/WEBSPORTTEAM/web/portfolio.jsp" />
       </list>
     </option>
   </component>
@@ -567,7 +567,7 @@
       <updated>1489211901328</updated>
       <workItem from="1489211907496" duration="19000" />
       <workItem from="1489771143238" duration="24000" />
-      <workItem from="1490424100238" duration="4931000" />
+      <workItem from="1490424100238" duration="5482000" />
     </task>
     <task id="LOCAL-00001" summary="Change &quot;Index&quot;">
       <created>1490424336019</created>
@@ -632,11 +632,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490429159132</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Change &quot;Service&quot;">
+      <created>1490429190929</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1490429190929</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4974000" />
+    <option name="totallyTimeSpent" value="5525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -719,14 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/portfolio.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="292" column="31" lean-forward="false" selection-start-line="292" selection-start-column="31" selection-end-line="292" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-248">
@@ -757,6 +756,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEBSPORTTEAM/web/portfolio.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="255" column="60" lean-forward="false" selection-start-line="255" selection-start-column="60" selection-end-line="255" selection-end-column="60" />
           <folding />
         </state>
       </provider>
