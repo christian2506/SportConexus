@@ -32,7 +32,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <div class="container">
     <div class="agile_header_grid">
       <div class="w3_agile_logo">
-        <h1><a href="index.jsp"><span>Sport</span>conexus</a></h1>
+        <h1><a href="index.jsp"><span>Sport</span>Connexus</a></h1>
       </div>
       <div class="agileits_w3layouts_sign_in">
         <ul>
@@ -66,8 +66,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                 </ul>
               </li>
-              <li><a href="portfolio.jsp" class="hvr-sweep-to-bottom">Galería</a></li>
-              <li><a href="contact.html" class="hvr-sweep-to-bottom">Contáctanos</a></li>
+              <li><a href="portfolio.jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
+              <li><a href="contact.html" class="hvr-sweep-to-bottom">Contactanos</a></li>
             </ul>
             <div class="agileinfo_search">
               <form action="#" method="post">
@@ -84,7 +84,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //header -->
 <!-- pop-up-box -->
 <div id="small-dialog" class="mfp-hide w3ls_small_dialog wthree_pop">
-  <h3 class="agileinfo_sign">Regístrate</h3>
+  <h3 class="agileinfo_sign">Registrate</h3>
   <s:form action="validate">
   <div class="agileits_signin_form">
 
@@ -105,7 +105,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       </div>
       <input type="submit" value="SIGN IN">
       </s:form>
-      <p>No tienes una cuenta?<a href="#small-dialog1" class="play-icon popup-with-zoom-anim">Regístrate</a></p>
+      <p>No tienes una cuenta?<a href="#small-dialog1" class="play-icon popup-with-zoom-anim">Registrate</a></p>
       <div class="w3agile_social_icons">
         <ul>
           <li class="wthree_follow">Siguenos en: </li>
@@ -165,7 +165,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="wthree_banner_grids">
       <div class="col-md-3 wthree_banner_grid">
         <i class="fa fa-desktop" aria-hidden="true"></i>
-        <h4>Solución a la molesta documentación </h4>
+        <h4>Solucion a la molesta documentación </h4>
       </div>
       <div class="col-md-3 wthree_banner_grid">
         <i class="fa fa-money" aria-hidden="true"></i>
@@ -289,7 +289,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- news -->
 <div class="news">
   <div class="container">
-    <h3 class="agile_head">Últimas noticias</h3>
+    <h3 class="agile_head">ultimas noticias</h3>
     <p class="w3_agile_para">Registro de días de actividades</p>
     <div class="agileits_w3layouts_news_grids">
       <ul id="flexiselDemo1">
@@ -349,7 +349,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <h4>Dia : 30 Noviembre 2016</h4>
               </div>
             </div>
-            <h5><a href="#" data-toggle="modal" data-target="#myModal">Fútbol</a></h5>
+            <h5><a href="#" data-toggle="modal" data-target="#myModal">Futbol</a></h5>
             <p>Torneo Juvenil.</p>
           </div>
         </li>
@@ -456,7 +456,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="w3_footer_grids">
       <div class="col-md-4 w3_footer_grid">
         <h2><a href="index.jsp"><span>Sport</span>Connexus</a></h2>
-        <p>Nuestra Web <a href="#">http:///SportConexus.com</a> WebSite de reservación de espacios deportivo.</p>
+        <p>Nuestra Web <a href="#">http:///SportConnexus.com</a> WebSite de reservacion de espacios deportivo.</p>
       </div>
       <div class="col-md-3 w3_footer_grid">
         <div class="w3l_footer_grid">
