@@ -36,8 +36,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
             <div class="agileits_w3layouts_sign_in">
                 <ul>
-                    <li><a href="#small-dialog" class="play-icon popup-with-zoom-anim">Registrate</a></li>
-                    <li>Contáctanos : <span>(+01) 543 5225</span></li>
+
+                    <li>Contáctanos : <span>+(01) 543 5225</span></li>
                 </ul>
             </div>
             <div class="clearfix"> </div>
@@ -59,6 +59,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <li><a href="index.jsp" class="hvr-sweep-to-bottom">Inicio</a></li>
                             <li><a href="services.jsp" class="hvr-sweep-to-bottom">¿Que Ofrecemos?</a></li>
                             <li><a href="about.html" class="hvr-sweep-to-bottom">Acerca</a></li>
+                            <li><a href="newUser.jsp" class="hvr-sweep-to-bottom">Reguistrate</a></li>
+                            <li><a href="validationUser.jsp" class="hvr-sweep-to-bottom">Iniciar Seccion</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown">Torneo <b class="caret"></b></a>
                                 <ul class="dropdown-menu agile_short_dropdown">
@@ -66,8 +68,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                                 </ul>
                             </li>
-                            <li class="active"><a href="portfolio.jsp">Galería</a></li>
-                            <li><a href="contact.html" class="hvr-sweep-to-bottom">Contáctanos</a></li>
+                            <li class="active"><a href="portfolio.jsp">Galeria</a></li>
+                            <li><a href="contact.html" class="hvr-sweep-to-bottom">Contactanos</a></li>
                         </ul>
                         <div class="agileinfo_search">
                             <form action="#" method="post">
@@ -83,58 +85,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!-- //header -->
 <!-- pop-up-box -->
-<div id="small-dialog" class="mfp-hide w3ls_small_dialog wthree_pop">
-    <h3 class="agileinfo_sign">Regístrate</h3>
-    <div class="agileits_signin_form">
-        <form action="#" method="post">
-            <input type="email" name="email" placeholder="Your Email" required="">
-            <input type="password" name="password" placeholder="Password" required="">
-            <div class="agile_remember">
-                <div class="agile_remember_left">
-                    <div class="check">
-                        <label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>Recordar Datos</label>
-                    </div>
-                </div>
-                <div class="agile_remember_right">
-                    <a href="#">Olvidastes tu Contraseña ?</a>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-            <input type="submit" value="SIGN IN">
-            <p>No tienes una cuenta? <a href="#small-dialog1" class="play-icon popup-with-zoom-anim">Registrate</a></p>
-            <div class="w3agile_social_icons">
-                <ul>
-                    <li class="wthree_follow">Siguenos en :</li>
-                    <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-        </form>
-    </div>
-</div>
-<div id="small-dialog1" class="mfp-hide w3ls_small_dialog wthree_pop">
-    <h3 class="agileinfo_sign">Registro</h3>
-    <div class="agileits_signin_form">
-        <form action="#" method="post">
-            <input type="text" name="name" placeholder="First Name" required="">
-            <input type="text" name="name" placeholder="Last Name" required="">
-            <input type="email" name="email" placeholder="Your Email" required="">
-            <input type="password" name="password" placeholder="Password" required="">
-            <input type="password" name="password" placeholder="Confirm Password" required="">
-            <input type="submit" value="SIGN UP">
-            <p>Ya eres Usuario SportConnexus <a href="#small-dialog" class="play-icon popup-with-zoom-anim">Sign In</a></p>
-            <div class="w3agile_social_icons">
-                <ul>
-                    <li class="wthree_follow">Siguenos en :</li>
-                    <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-        </form>
-    </div>
-</div>
+
 <!-- //pop-up-box -->
 <script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
 <script>
@@ -161,7 +112,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- portfolio -->
 <div class="portfolio">
     <div class="container">
-        <h3 class="agile_head">Galería</h3>
+        <h3 class="agile_head">Galeria</h3>
         <p class="w3_agile_para">Registro de actividades</p>
     </div>
     <div class="w3_agile_portfolio_grids">
@@ -259,7 +210,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="w3l_footer_grid">
                     <i class="fa fa-home" aria-hidden="true"></i>
                 </div>
-                <h4>Dirección</h4>
+                <h4>Direccion</h4>
                 <p>Av. José Carlos Mariátegui 375 urb. Lucyana Distrito: Los Olivos</p>
             </div>
             <div class="col-md-2 w3_footer_grid">
@@ -287,7 +238,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <ul>
                 <li><a href="services.jsp">Servicios</a></li>
                 <li><a href="about.html">Acerca</a></li>
-                <li class="active"><a href="portfolio.jsp">Galería</a></li>
+                <li class="active"><a href="portfolio.jsp">Galeria</a></li>
                 <li><a href="contact.html">Contactanos</a></li>
             </ul>
             <p>© 2017 SportConnexus. Todos los Derechos Reservados </p>
