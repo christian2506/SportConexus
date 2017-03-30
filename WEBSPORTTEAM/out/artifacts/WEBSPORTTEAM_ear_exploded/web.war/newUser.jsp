@@ -26,7 +26,7 @@
 </head>
 <body>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<form action="user.action" method="post">
+<form action="users" method="post">
     <div class="container-fluid">
         <section class="container">
             <div class="container-page">
