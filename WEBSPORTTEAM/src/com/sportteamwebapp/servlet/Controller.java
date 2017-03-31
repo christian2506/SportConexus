@@ -1,4 +1,4 @@
-package com.servlet;
+package com.sportteamwebapp.servlet;
 
 import javax.servlet.ServletException;
 
