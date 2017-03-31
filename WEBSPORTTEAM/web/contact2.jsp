@@ -67,6 +67,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <li><a href="about2.jsp" class="hvr-sweep-to-bottom">Acerca</a></li>
 
 
+
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown">Torneo <b class="caret"></b></a>
                                 <ul class="dropdown-menu agile_short_dropdown">
@@ -74,8 +75,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                                 </ul>
                             </li>
-                            <li><a href="portfolio2.jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
+                            <li><a href="portafolio2.jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
                             <li class="active"><a href="contact2.jsp">Contactanos</a></li>
+                            <li><a href="NewTeam.jsp" class="hvr-sweep-to-bottom">Agregar Equipo</a></li>
                             <li><a href="index.jsp" class="hvr-sweep-to-bottom">Cerrar Sesión</a></li>
 
                         </ul>
