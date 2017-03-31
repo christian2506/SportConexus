@@ -16,9 +16,9 @@ public class User{
     private String email;
     private String gender;
     private int dni;
-    private Team teamId;
 
-    public User(int userId, String password, String firstName, String lastName, int age, int phone, String email, String gender, int dni, Team teamId) {
+
+    public User(int userId, String password, String firstName, String lastName, int age, int phone, String email, String gender, int dni) {
         this.userId = userId;
         this.password = password;
         this.firstName = firstName;
@@ -28,7 +28,7 @@ public class User{
         this.email = email;
         this.gender = gender;
         this.dni = dni;
-        this.teamId = teamId;
+
     }
 
 
@@ -104,15 +104,8 @@ public class User{
         this.dni = dni;
     }
 
-    public Team getTeamId() {
-        return teamId;
-    }
 
-    public void setTeamId(Team teamId) {
-        this.teamId = teamId;
-    }
-
-    public static User build(ResultSet resultSet, TeamsEntity teamsEntity) {
+    public static User build(ResultSet resultSet) {
         try {
             return new User(resultSet.getInt("user_id"),
                     resultSet.getString("password"),
@@ -122,8 +115,8 @@ public class User{
                     resultSet.getInt("phone"),
                     resultSet.getString("email"),
                     resultSet.getString("gender"),
-                    resultSet.getInt("dni"),
-                    teamsEntity.findById(resultSet.getInt("sport_id")));
+                    resultSet.getInt("dni"));
+
         } catch (SQLException e) {
             e.printStackTrace();
             return null;

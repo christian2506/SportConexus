@@ -38,7 +38,7 @@ public class UsersEntity extends  BaseEntity {
             try {
                 ResultSet resultSet = getConnection().createStatement().executeQuery(sql);
                 while(resultSet.next()) {
-                    User user = User.build(resultSet , getTeamsEntity());
+                    User user = User.build(resultSet);
                     users.add(user);
                 }
                 return users;
@@ -74,14 +74,15 @@ public class UsersEntity extends  BaseEntity {
     public User create( String password, String firstName , String name, int age  , int phone, String email,String gender,int dni ,int teamId) {
         if(findByName(name) == null) {
             if(getConnection() != null) {
-                String sql = "INSERT INTO users(user_id, password, first_name , last_name , age , phone , email , gender, dni , team_id) VALUES(" +
+                String sql = "INSERT INTO users(user_id, password, first_name , last_name , age , phone , email , gender, dni ) VALUES(" +
                         Integer.toString(getMaxId()+1) + ", '" +
-                        password + "' , '" +  firstName + "', '"+ name + "'," +String.valueOf(age)+","+String.valueOf(phone)+",'"+email+"','"+gender+"',"+String.valueOf(dni)+","+ teamId+")";
+                        password + "' , '" +  firstName + "', '"+ name + "'," +String.valueOf(age)
+                        +","+String.valueOf(phone)+",'"+email+"','"+gender+"',"+String.valueOf(dni)+")";
                 try {
                     int results = getConnection().createStatement().executeUpdate(sql);
                     if(results > 0) {
                         User user = new User
-                                (getMaxId(), password,firstName,name,  age,phone ,email,gender,dni,getTeamsEntity().findById(teamId));
+                                (getMaxId(), password,firstName,name,  age,phone ,email,gender,dni);
                         return user;
                     }
                 } catch (SQLException e) {

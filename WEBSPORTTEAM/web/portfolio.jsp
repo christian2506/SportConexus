@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html >
 <head>
     <title>SportConnnexus</title>
     <!-- for-mobile-apps -->
