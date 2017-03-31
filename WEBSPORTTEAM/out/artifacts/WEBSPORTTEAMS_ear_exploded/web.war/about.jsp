@@ -1,5 +1,6 @@
 
 <!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
 <title>SportConnexus a la mejor alternativa para reservar un espacio deportivo </title>
@@ -58,7 +59,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<ul class="nav navbar-nav">
 								<li><a href="index.jsp" class="hvr-sweep-to-bottom">Inicio</a></li>
 								<li><a href="services.jsp" class="hvr-sweep-to-bottom"> ¿Que Ofrecemos? </a></li>
-								<li class="active"><a href="about.html">Acerca</a></li>
+								<li class="active"><a href="about.jsp">Acerca</a></li>
 
 
 								<li class="dropdown">
@@ -69,7 +70,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</ul>
 								</li>
 								<li><a href="portafolio.jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
-								<li><a href="contact.html" class="hvr-sweep-to-bottom">Contáctanos</a></li>
+								<li><a href="contact.jsp" class="hvr-sweep-to-bottom">Contáctanos</a></li>
 								<li><a href="validationUser.jsp" class="hvr-sweep-to-bottom">Iniciar Sesión</a></li>
 								<li><a href="newUser.jsp" class="hvr-sweep-to-bottom">Registrate</a></li>
 							</ul>
@@ -394,9 +395,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3ls_copyright_left">
 				<ul>
 					<li><a href="services.jsp">Servicios</a></li>
-					<li class="active"><a href="about.html">Acerca</a></li>
+					<li class="active"><a href="about.jsp">Acerca</a></li>
 					<li><a href="portfolio.jsp">Galería</a></li>
-					<li><a href="contact.html">Contáctanoss</a></li>
+					<li><a href="contact.jsp">Contáctanoss</a></li>
 				</ul>
 				<p>© 2017 SportConnexus. Todos los Derechos Reservados </p>
 			</div>

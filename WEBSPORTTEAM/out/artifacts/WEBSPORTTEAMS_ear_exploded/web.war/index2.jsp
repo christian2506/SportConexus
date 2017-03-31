@@ -6,7 +6,7 @@
     <title>SportConexus a Corporate Business </title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
     <meta name="keywords" content="Lucrative Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
@@ -60,17 +60,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="index2.jsp">Inicio</a></li>
                             <li><a href="services2.jsp" class="hvr-sweep-to-bottom"> ¿Que Ofrecemos? </a></li>
-                            <li><a href="about2.html" class="hvr-sweep-to-bottom">Acerca</a></li>
+                            <li><a href="about2.jsp" class="hvr-sweep-to-bottom">Acerca</a></li>
 
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown">Torneo<b class="caret"></b></a>
                                 <ul class="dropdown-menu agile_short_dropdown">
-                                    <li><a href="icons2.html">Equipos</a></li>
+                                    <li><a href="icons2.jsp">Equipos</a></li>
 
                                 </ul>
                             </li>
                             <li><a href="portfolio.2jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
-                            <li><a href="contact2.html" class="hvr-sweep-to-bottom">Contactanos</a></li>
+                            <li><a href="contact2.jsp" class="hvr-sweep-to-bottom">Contactanos</a></li>
                             <li><a href="index.jsp" class="hvr-sweep-to-bottom">Cerrar Sesíon</a></li>
 
 
@@ -440,9 +440,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="w3ls_copyright_left">
             <ul>
                 <li><a href="services.jsp">Servicios</a></li>
-                <li><a href="about.html">Acerca</a></li>
+                <li><a href="about.jsp">Acerca</a></li>
                 <li><a href="portfolio.jsp">Galería</a></li>
-                <li><a href="contact.html">Contáctanos</a></li>
+                <li><a href="contact.jsp">Contáctanos</a></li>
             </ul>
             <p> © 2017 SportConnexus. Todos los Derechos Reservados </p>
         </div>

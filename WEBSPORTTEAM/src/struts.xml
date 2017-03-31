@@ -14,8 +14,8 @@
         </action>
 
 
-        <action name="place" class="com.sportteamwebapp.actions.PlaceAction">
-
+        <action name="place" class="com.sportteamwebapp.actions.PlaceAction" method="list">
+            <result name="success">icons.jsp</result>
 
         </action>
 

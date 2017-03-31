@@ -59,18 +59,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <ul class="nav navbar-nav">
                             <li><a href="index.jsp" class="hvr-sweep-to-bottom">Inicio</a></li>
                             <li><a href="services.jsp" class="hvr-sweep-to-bottom">¿Que Ofrecemos?</a></li>
-                            <li><a href="about.html" class="hvr-sweep-to-bottom">Acerca</a></li>
+                            <li><a href="about.jsp" class="hvr-sweep-to-bottom">Acerca</a></li>
 
 
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown">Torneo <b class="caret"></b></a>
                                 <ul class="dropdown-menu agile_short_dropdown">
-                                    <li><a href="icons.html">Equipos</a></li>
+                                    <li><a href="icons.jsp">Equipos</a></li>
 
                                 </ul>
                             </li>
                             <li class="active"><a href="portfolio.jsp">Galeria</a></li>
-                            <li><a href="contact.html" class="hvr-sweep-to-bottom">Contactanos</a></li>
+                            <li><a href="contact.jsp" class="hvr-sweep-to-bottom">Contactanos</a></li>
                             <li><a href="validationUser.jsp" class="hvr-sweep-to-bottom">Iniciar Seccion</a></li>
                             <li><a href="newUser.jsp" class="hvr-sweep-to-bottom">Reguistrate</a></li>
                         </ul>
@@ -240,9 +240,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="w3ls_copyright_left">
             <ul>
                 <li><a href="services.jsp">Servicios</a></li>
-                <li><a href="about.html">Acerca</a></li>
+                <li><a href="about.jsp">Acerca</a></li>
                 <li class="active"><a href="portfolio.jsp">Galeria</a></li>
-                <li><a href="contact.html">Contactanos</a></li>
+                <li><a href="contact.jsp">Contactanos</a></li>
             </ul>
             <p>© 2017 SportConnexus. Todos los Derechos Reservados </p>
         </div>

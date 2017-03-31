@@ -1,12 +1,13 @@
+<%@ taglib prefix="s" uri="/struts-tags" %>
 
 <!DOCTYPE html>
 
-<html >
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <head>
 <title>SportConnexus </title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <meta name="keywords" content="Lucrative Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
@@ -59,18 +60,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<ul class="nav navbar-nav">
 								<li><a href="index.jsp" class="hvr-sweep-to-bottom">Inicio</a></li>
 								<li><a href="services.jsp" class="hvr-sweep-to-bottom">¿Que Ofrecemos?</a></li>
-								<li><a href="about.html" class="hvr-sweep-to-bottom">Acerca</a></li>
+								<li><a href="about.jsp" class="hvr-sweep-to-bottom">Acerca</a></li>
 
 
 								<li class="dropdown active">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Torneo <b class="caret"></b></a>
 									<ul class="dropdown-menu agile_short_dropdown">
-										<li><a href="icons.html">Equipos</a></li>
+										<li><a href="icons.jsp">Equipos</a></li>
 
 									</ul>
 								</li>
 								<li><a href="portfolio.jsp" class="hvr-sweep-to-bottom">Galería</a></li>
-								<li><a href="contact.html" class="hvr-sweep-to-bottom">Contáctanos</a></li>
+								<li><a href="contact.jsp" class="hvr-sweep-to-bottom">Contáctanos</a></li>
 								<li><a href="validationUser.jsp" class="hvr-sweep-to-bottom">Iniciar Sesión</a></li>
 								<li><a href="newUser.jsp" class="hvr-sweep-to-bottom">Registrate</a></li>
 							</ul>
@@ -122,78 +123,46 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<h3 class="page-header page-header icon-subheading" >35 Nuevos Equipos </h3>
 
 								<div class="row fontawesome-icon-list">
-									
-									
-									<div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-asl-interpreting" aria-hidden="true"></i> Los Goleadore de Chorrillos <span class="text-muted"></span></a></div>
-									
-									<div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-assistive-listening-systems" aria-hidden="true"></i> Los Bravos de SJL</a></div>
-									
-									<div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-audio-description" aria-hidden="true"></i> Los Super Campeones</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-blind" aria-hidden="true"></i> Lucho y sus amigos</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-braille" aria-hidden="true"></i> Spartak</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-deaf" aria-hidden="true"></i> Nothingam Prisa</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-deafness" aria-hidden="true"></i> Frenahaybaçhe <span class="text-muted">(alias)</span></a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-envira" aria-hidden="true"></i> Los Vings Sur </a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-fa" aria-hidden="true"></i> Ba-Da-Bing <span class="text-muted">(alias)</span></a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-first-order" aria-hidden="true"></i> Bump It Up</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-font-awesome" aria-hidden="true"></i> El Legado</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-gitlab" aria-hidden="true"></i> Los Espartanos de Lince</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-glide" aria-hidden="true"></i> Voleibol por encima de todo!</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-glide-g" aria-hidden="true"></i> Westside Lobos Voleibol</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-google-plus-circle" aria-hidden="true"></i> Los Speedos <span class="text-muted">(alias)</span></a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-google-plus-official" aria-hidden="true"></i> One Chance</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-hard-of-hearing" aria-hidden="true"></i> Manhattan Boys <span class="text-muted">(alias)</span></a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Wild Wings/a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-low-vision" aria-hidden="true"></i> Las Divas del Volley</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-pied-piper" aria-hidden="true"></i> Vassilis Spanoulis</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Pete Mickeal</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-sign-language" aria-hidden="true"></i> Derrick Rose</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-signing" aria-hidden="true"></i> Kostas Papanik <span class="text-muted">(alias)</span></a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-snapchat" aria-hidden="true"></i> Maccabi di ganare</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-snapchat-ghost" aria-hidden="true"></i> Boston Celtics</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-snapchat-square" aria-hidden="true"></i> Zagreb</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-themeisle" aria-hidden="true"></i> Memphis Gremlins</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-universal-access" aria-hidden="true"></i> LA Lakers</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-viadeo" aria-hidden="true"></i>The Harlem trotters</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-viadeo-square" aria-hidden="true"></i> Globber Torpes</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> Aston Birra</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-wheelchair-alt" aria-hidden="true"></i> PinkStar</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-wpbeginner" aria-hidden="true"></i> Los Badajoz</a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-wpforms" aria-hidden="true"></i> Somos Aragon </a></div>
-									
-									  <div class="icon-box col-md-3 col-sm-4"><a class="agile-icon" href="#"><i class="fa fa-yoast" aria-hidden="true"></i> Arequipa Alma Corazon y Vida</a></div>
-									
+
+									<center><table style="border:#25BEBB 4px solid"  >
+										<tr>
+											<td>
+												Codigo del Equipo
+											</td>
+											<td>
+												Nombre del equipo
+											</td>
+											<td>
+												imagen
+											</td>
+											<td>
+												Codigo del equipo jugador
+											</td>
+										</tr>
+
+											<tr>
+												<td>
+													<s:property value="placeId" />
+												</td>
+												<td>
+													<s:property value="location" />
+												</td>
+												<td>
+													<out value="${team.image}" />
+												</td>
+												<td>
+													<out value="${team.teamPlayerId.getId()}" />
+												</td>
+												<td>
+
+												</td>
+												<td>
+
+												</td>
+
+										</tr>
+									</table></center>
+
 								</div>
 							</section>
 						</div>
@@ -314,9 +283,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3ls_copyright_left">
 				<ul>
 					<li><a href="services.jsp">Servicios</a></li>
-					<li><a href="about.html">Acerca</a></li>
+					<li><a href="about.jsp">Acerca</a></li>
 					<li><a href="portfolio.jsp">Portafolio</a></li>
-					<li><a href="contact.html">Contactanos</a></li>
+					<li><a href="contact.jsp">Contactanos</a></li>
 				</ul>
 				<p>© 2017 SportConexus. Todos los Derechos Reservados </p>
 			</div>

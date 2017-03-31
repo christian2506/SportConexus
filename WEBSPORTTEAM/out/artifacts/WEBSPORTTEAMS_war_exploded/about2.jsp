@@ -1,5 +1,7 @@
 
 <!DOCTYPE html>
+
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>SportConnexus a la mejor alternativa para reservar un espacio deportivo </title>
@@ -58,18 +60,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <ul class="nav navbar-nav">
                             <li><a href="index2.jsp" class="hvr-sweep-to-bottom">Inicio</a></li>
                             <li><a href="services2.jsp" class="hvr-sweep-to-bottom"> ¿Que Ofrecemos? </a></li>
-                            <li class="active"><a href="about2.html">Acerca</a></li>
+                            <li class="active"><a href="about2.jsp">Acerca</a></li>
 
 
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown">Torneos <b class="caret"></b></a>
                                 <ul class="dropdown-menu agile_short_dropdown">
-                                    <li><a href="icons2.html">Equipos</a></li>
+                                    <li><a href="icons2.jsp">Equipos</a></li>
 
                                 </ul>
                             </li>
                             <li><a href="portafolio2.jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
-                            <li><a href="contact2.html" class="hvr-sweep-to-bottom">Contáctanos</a></li>
+                            <li><a href="contact2.jsp" class="hvr-sweep-to-bottom">Contáctanos</a></li>
                             <
                             <li><a href="index.jsp" class="hvr-sweep-to-bottom">Cerrar Sesion</a></li>
                         </ul>
@@ -394,9 +396,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="w3ls_copyright_left">
             <ul>
                 <li><a href="services.jsp">Servicios</a></li>
-                <li class="active"><a href="about.html">Acerca</a></li>
+                <li class="active"><a href="about.jsp">Acerca</a></li>
                 <li><a href="portfolio.jsp">Galería</a></li>
-                <li><a href="contact.html">Contáctanoss</a></li>
+                <li><a href="contact.jsp">Contáctanoss</a></li>
             </ul>
             <p>© 2017 SportConnexus. Todos los Derechos Reservados </p>
         </div>

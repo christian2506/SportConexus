@@ -59,18 +59,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <ul class="nav navbar-nav">
                             <li><a href="index2.jsp" class="hvr-sweep-to-bottom">Inicio</a></li>
                             <li><a href="services2.jsp" class="hvr-sweep-to-bottom">¿Que Ofrecemos?</a></li>
-                            <li><a href="about2.html" class="hvr-sweep-to-bottom">Acerca</a></li>
+                            <li><a href="about2.jsp" class="hvr-sweep-to-bottom">Acerca</a></li>
 
 
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown">Torneo <b class="caret"></b></a>
                                 <ul class="dropdown-menu agile_short_dropdown">
-                                    <li><a href="icons2.html">Equipos</a></li>
+                                    <li><a href="icons2.jsp">Equipos</a></li>
 
                                 </ul>
                             </li>
                             <li class="active"><a href="portfolio2.jsp">Galeria</a></li>
-                            <li><a href="contact2.html" class="hvr-sweep-to-bottom">Contactanos</a></li>
+                            <li><a href="contact2.jsp" class="hvr-sweep-to-bottom">Contactanos</a></li>
 
                             <li><a href="index.jsp" class="hvr-sweep-to-bottom">Cerrar Sesión</a></li>
                         </ul>
@@ -240,9 +240,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="w3ls_copyright_left">
             <ul>
                 <li><a href="services.jsp">Servicios</a></li>
-                <li><a href="about.html">Acerca</a></li>
+                <li><a href="about.jsp">Acerca</a></li>
                 <li class="active"><a href="portfolio.jsp">Galeria</a></li>
-                <li><a href="contact.html">Contactanos</a></li>
+                <li><a href="contact.jsp">Contactanos</a></li>
             </ul>
             <p>© 2017 SportConnexus. Todos los Derechos Reservados </p>
         </div>
