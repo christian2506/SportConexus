@@ -69,7 +69,7 @@ public class UsersEntity extends  BaseEntity {
     }
 
 
-    public User create( String password, String firstName , String name, int age  , int phone, String email,String gender,int dni ,int teamId) {
+    public User create( String password, String firstName , String name, int age  , int phone, String email,String gender,int dni ) {
         if(findByName(name) == null) {
             if(getConnection() != null) {
                 String sql = "INSERT INTO users(user_id, password, first_name , last_name , age , phone , email , gender, dni ) VALUES(" +

@@ -10,50 +10,53 @@
 
         <action name="businessPartner" class="com.sportteamwebapp.actions.BusinessPartnerAction">
 
-            <result name="error">showError.jsp</result>
+
         </action>
 
 
         <action name="place" class="com.sportteamwebapp.actions.PlaceAction">
 
-            <result name="error">showError.jsp</result>
+
         </action>
 
         <action name="sport" class="com.sportteamwebapp.actions.SportAction">
 
-            <result name="error">showError.jsp</result>
+
         </action>
 
 
 
         <action name="sportSpace" class="com.sportteamwebapp.actions.SportSpaceAction">
 
-            <result name="error">showError.jsp</result>
+
         </action>
 
 
         <action name="team" class="com.sportteamwebapp.actions.TeamAction">
 
-            <result name="error">showError.jsp</result>
+
         </action>
 
 
         <action name="user" class="com.sportteamwebapp.actions.UserAction">
 
-            <result name="error">showError.jsp</result>
+
         </action>
 
 
 
         <action name="login">
-            <result>login.jsp</result>
+            <result>validationUser.jsp</result>
         </action>
         <action name="validate" class="com.sportteamwebapp.actions.LoginAction" method="validate">
-            <result name="success">welcome.jsp</result>
-            <result name="error">showError.jsp</result>
+            <result name="success">indexWelcome.jsp</result>
+            <result name="error">indexError.jsp</result>
         </action>
+
 
 
 
     </package>
+
+
 </struts>

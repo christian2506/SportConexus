@@ -60,8 +60,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <li><a href="index.jsp" class="hvr-sweep-to-bottom"> Inicio </a></li>
                             <li class="active"><a href="services.html"> ¿Que Ofrecemos? </a></li>
                             <li><a href="about.html" class="hvr-sweep-to-bottom"> Acerca </a></li>
-                            <li><a href="newUser.jsp" class="hvr-sweep-to-bottom">Reguistrate</a></li>
-                            <li><a href="validationUser.jsp" class="hvr-sweep-to-bottom">Iniciar Seccion</a></li>
+
+
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown">Torneo <b class="caret"></b></a>
                                 <ul class="dropdown-menu agile_short_dropdown">
@@ -71,6 +71,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </li>
                             <li><a href="portfolio.jsp" class="hvr-sweep-to-bottom">Galería</a></li>
                             <li><a href="contact.html" class="hvr-sweep-to-bottom">Contactanos</a></li>
+                            <li><a href="validationUser.jsp" class="hvr-sweep-to-bottom">Iniciar Seccion</a></li>
+                            <li><a href="newUser.jsp" class="hvr-sweep-to-bottom">Reguistrate</a></li>
                         </ul>
                         <div class="agileinfo_search">
                             <form action="#" method="post">
