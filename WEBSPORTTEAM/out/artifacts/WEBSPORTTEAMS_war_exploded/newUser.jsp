@@ -44,13 +44,13 @@
                     </div>
 
                     <div class="form-group col-lg-6">
-                        <label>Correo Electrónico</label>
-                        <input type="email" name="email" class="form-control"  value="${user.email}" required>
+                        <label>NombreUsuario</label>
+                        <input type="text" name="nomUser" class="form-control"  value="${user.nomUser}" required>
                     </div>
 
                     <div class="form-group col-lg-6 required">
-                        <label>Confirmar correo electrónico</label>
-                        <input type="email" name="" class="form-control" required>
+                        <label>Confirmar NombreUsuario</label>
+                        <input type="text" name="" class="form-control" required>
                     </div>
 
                     <div class="form-group col-lg-6">

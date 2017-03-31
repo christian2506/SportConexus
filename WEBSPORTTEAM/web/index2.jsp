@@ -441,7 +441,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <ul>
                 <li><a href="services.jsp">Servicios</a></li>
                 <li><a href="about.jsp">Acerca</a></li>
-                <li><a href="portfolio.jsp">Galería</a></li>
+                <li><a href="portafolio2.jsp">Galería</a></li>
                 <li><a href="contact.jsp">Contáctanos</a></li>
             </ul>
             <p> © 2017 SportConnexus. Todos los Derechos Reservados </p>

@@ -71,7 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                                 </ul>
                             </li>
-                            <li><a href="portfolio.jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
+                            <li><a href="portafolio2.jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
                             <li><a href="contact.jsp" class="hvr-sweep-to-bottom">Contactanos</a></li>
                             <li><a href="newUser.jsp" class="hvr-sweep-to-bottom">Registrate</a></li>
                         </ul>
@@ -108,7 +108,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- banner -->
 <div class="banner1">
 
-    <center><h1>Iniciar Seccion</h1></center>
+    <center><h1>Iniciar Sesión</h1></center>
     <br><br><br>
     <s:form action="validate">
     <table align="center">
