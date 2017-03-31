@@ -1,10 +1,8 @@
 package com.sportteamwebapp.models;
 
-import java.util.Date;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-
 import java.util.List;
 
 /**

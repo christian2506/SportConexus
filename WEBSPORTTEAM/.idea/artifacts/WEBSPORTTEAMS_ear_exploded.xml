@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="WEBSPORTTEAMS:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WEBSPORTTEAMS_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="WEBSPORTTEAM/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="WEBSPORTTEAMS:war exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Struts 2-2.3.20.1" />
+      </element>
+    </root>
+  </artifact>
+</component>

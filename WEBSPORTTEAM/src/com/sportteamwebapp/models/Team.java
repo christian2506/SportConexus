@@ -2,7 +2,6 @@ package com.sportteamwebapp.models;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.List;
 
 /**
  * Created by yeyo on 10/03/2017.

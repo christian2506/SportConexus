@@ -1,6 +1,6 @@
 package com.sportteamwebapp.actions;
+
 import com.sportteamwebapp.models.Team;
-import com.sportteamwebapp.models.Sport;
 import com.sportteamwebapp.services.HrService;
 
 import java.util.List;

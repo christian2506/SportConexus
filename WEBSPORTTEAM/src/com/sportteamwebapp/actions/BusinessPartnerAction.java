@@ -1,7 +1,6 @@
 package com.sportteamwebapp.actions;
 
 import com.sportteamwebapp.models.BusinessPartner;
-
 import com.sportteamwebapp.services.HrService;
 
 import java.util.List;
