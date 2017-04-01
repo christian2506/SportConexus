@@ -71,7 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</li>
 								<li><a href="portafolio.jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
 								<li><a href="contact.jsp" class="hvr-sweep-to-bottom">Contáctanos</a></li>
-								<li><a href="validationUser.jsp" class="hvr-sweep-to-bottom">Iniciar Sesión</a></li>
+								<li><a href="validationUser.jsp" class="hvr-sweep-to-bottom">Iniciar Sesion</a></li>
 								<li><a href="newUser.jsp" class="hvr-sweep-to-bottom">Registrate</a></li>
 							</ul>
 							<div class="agileinfo_search">
@@ -331,7 +331,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="w3layouts_newsletter">
 		<div class="container">
 			<div class="w3layouts_newsletter_left">
-				<h3>Suscríbete a nuestra web</h3>
+				<h3>Suscribete a nuestra web</h3>
 			</div>
 			<div class="w3layouts_newsletter_right">
 				<form action="#" method="post">
@@ -362,14 +362,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3_footer_grids">
 				<div class="col-md-4 w3_footer_grid">
 					<h2><a href="index.jsp"><span>Sport</span>conexus</a></h2>
-					<p>Nuestro sitio <a href="#">http:///SportConnexus.com</a> WebSite de reservación de espacios deportivo.</p>
+					<p>Nuestro sitio <a href="#">http:///SportConnexus.com</a> WebSite de reservacion de espacios deportivo.</p>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
 					<div class="w3l_footer_grid">
 						<i class="fa fa-home" aria-hidden="true"></i>
 					</div>
-					<h4>Dirección</h4>
-					<p>Av. José Carlos Mariátegui 375 urb. Lucyana Distrito: Los Olivos</p>
+					<h4>Direccion</h4>
+					<p>Av. Jose Carlos Mariategui 375 urb. Lucyana Distrito: Los Olivos</p>
 				</div>
 				<div class="col-md-2 w3_footer_grid">
 					<div class="w3l_footer_grid">
@@ -396,7 +396,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<ul>
 					<li><a href="services.jsp">Servicios</a></li>
 					<li class="active"><a href="about.jsp">Acerca</a></li>
-					<li><a href="portfolio.jsp">Galería</a></li>
+					<li><a href="portfolio.jsp">Galeria</a></li>
 					<li><a href="contact.jsp">Contáctanoss</a></li>
 				</ul>
 				<p>© 2017 SportConnexus. Todos los Derechos Reservados </p>

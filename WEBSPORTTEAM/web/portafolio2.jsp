@@ -38,7 +38,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="agileits_w3layouts_sign_in">
                 <ul>
 
-                    <li>Contáctanos : <span>+(01) 543 5225</span></li>
+                    <li>Contactanos : <span>+(01) 543 5225</span></li>
                 </ul>
             </div>
             <div class="clearfix"> </div>
@@ -73,7 +73,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <li><a href="contact2.jsp" class="hvr-sweep-to-bottom">Contactanos</a></li>
                             <li><a href="NewTeam.jsp" class="hvr-sweep-to-bottom">Agrega Equipo</a></li>
 
-                            <li><a href="index.jsp" class="hvr-sweep-to-bottom">Cerrar Sesión</a></li>
+                            <li><a href="index.jsp" class="hvr-sweep-to-bottom">Cerrar Sesion</a></li>
                         </ul>
                         <div class="agileinfo_search">
                             <form action="#" method="post">
@@ -208,14 +208,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="w3_footer_grids">
             <div class="col-md-4 w3_footer_grid">
                 <h2><a href="index.jsp"><span>Sport</span>Connexus</a></h2>
-                <p>Nuestra web <a href="#">http:///SportConnexus.com</a> WebSite de reservación de espacios deportivo.</p>
+                <p>Nuestra web <a href="#">http:///SportConnexus.com</a> WebSite de reservacion de espacios deportivo.</p>
             </div>
             <div class="col-md-3 w3_footer_grid">
                 <div class="w3l_footer_grid">
                     <i class="fa fa-home" aria-hidden="true"></i>
                 </div>
                 <h4>Direccion</h4>
-                <p>Av. José Carlos Mariátegui 375 urb. Lucyana Distrito: Los Olivos</p>
+                <p>Av. Jose Carlos Mariategui 375 urb. Lucyana Distrito: Los Olivos</p>
             </div>
             <div class="col-md-2 w3_footer_grid">
                 <div class="w3l_footer_grid">

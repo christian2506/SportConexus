@@ -43,7 +43,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="agileits_w3layouts_sign_in">
 					<ul>
 
-						<li>Contactanos : <span>(+000) 123 234</span></li>
+						<li>Contactanos : <span>+(01) 543 5225 </span></li>
 					</ul>
 				</div>
 				<div class="clearfix"> </div>
@@ -76,7 +76,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</li>
 								<li><a href="portfolio.jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
 								<li class="active"><a href="contact.jsp">Contactanos</a></li>
-								<li><a href="validationUser.jsp" class="hvr-sweep-to-bottom">Iniciar Sesión</a></li>
+								<li><a href="validationUser.jsp" class="hvr-sweep-to-bottom">Iniciar Sesion</a></li>
 								<li><a href="newUser.jsp" class="hvr-sweep-to-bottom">Registrate</a></li>
 							</ul>
 							<div class="agileinfo_search">
@@ -150,15 +150,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<form action="#" method="post">
 						<textarea name="Message" placeholder="Your comment here..." required=""></textarea>
 						<div class="agileits_leave">
-							<label>Name :</label>
+							<label>Nombre :</label>
 							<input type="text" name="Name" placeholder=" " required="" />
 						</div>
 						<div class="agileits_leave">
-							<label>Email :</label>
+							<label>Correo :</label>
 							<input type="email" name="Email" placeholder=" " required="" />
 						</div>
 						<div class="agileits_leave">
-							<label>Subject :</label>
+							<label>Tema :</label>
 							<input type="text" name="Subject" placeholder=" " required="" />
 						</div>
 						<div class="clearfix"> </div>

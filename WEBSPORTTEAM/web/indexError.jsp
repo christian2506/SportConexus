@@ -35,7 +35,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="agile_header_grid">
             <div class="w3_agile_logo">
 
-                <h1>Contraseña o Usuario Inválido  <img src="images/18.jpg" alt=" " class="img-responsive" /> </h1>
+                <h1>Contraseña o Usuario NO valido  <img src="images/18.jpg" alt=" " class="img-responsive" /> </h1>
             </div>
             <div class="agileits_w3layouts_sign_in">
 
@@ -115,7 +115,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <td><input  textfield name="userName" placeholder="NombreUsuario"> </td>
             </tr>
             <tr>
-                <th align="rigth"> Password:</th>
+                <th align="rigth"> Contraseña:</th>
                 <td> <input type="password" name="password" placeholder="Password"> </td>
             </tr>
             <tr>

@@ -39,7 +39,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="agileits_w3layouts_sign_in">
 					<ul>
 
-						<li>Contáctanos : <span>+(01) 543 5225</span></li>
+						<li>Contactanos : <span>+(01) 543 5225</span></li>
 					</ul>
 				</div>
 				<div class="clearfix"> </div>
@@ -70,9 +70,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 									</ul>
 								</li>
-								<li><a href="portfolio.jsp" class="hvr-sweep-to-bottom">Galería</a></li>
+								<li><a href="portfolio.jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
 								<li><a href="contact.jsp" class="hvr-sweep-to-bottom">Contáctanos</a></li>
-								<li><a href="validationUser.jsp" class="hvr-sweep-to-bottom">Iniciar Sesión</a></li>
+								<li><a href="validationUser.jsp" class="hvr-sweep-to-bottom">Iniciar Sesion</a></li>
 								<li><a href="newUser.jsp" class="hvr-sweep-to-bottom">Registrate</a></li>
 							</ul>
 							<div class="agileinfo_search">
@@ -133,7 +133,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												Nombre del equipo
 											</td>
 											<td>
-												imagen
+												Imagen
 											</td>
 											<td>
 												Codigo del equipo jugador
@@ -186,7 +186,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container">
 				<div class="col-md-5 wthree_stat_left">
 					<h3>Nuestras Estadisticas</h3>
-					<p>Información de actividades Registradas</p>
+					<p>Informacion de actividades Registradas</p>
 				</div>
 				<div class="col-md-7 wthree_stat_right">
 					<ul>
@@ -249,30 +249,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="w3_footer_grids">
 				<div class="col-md-4 w3_footer_grid">
-					<h2><a href="index.jsp"><span>Sport</span>Conexus</a></h2>
-					<p>Nuestra Web <a href="#">http:///SportConexus.com</a> Club Deportivo.</p>
+					<h2><a href="index.jsp"><span>Sport</span>Connexus</a></h2>
+					<p>Nuestra Web <a href="#">http:///SportConnexus.com</a> Club Deportivo.</p>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
 					<div class="w3l_footer_grid">
 						<i class="fa fa-home" aria-hidden="true"></i>
 					</div>
 					<h4>Direccion</h4>
-					<p>234 main street west Building, NewYork City,F34 834.</p>
+					<p>Av. José Carlos Mariátegui 375 urb. Lucyana Distrito: Los Olivos </p>
 				</div>
 				<div class="col-md-2 w3_footer_grid">
 					<div class="w3l_footer_grid">
 						<i class="fa fa-phone" aria-hidden="true"></i>
 					</div>
 					<h4>Llamanos</h4>
-					<p>+(123) 456 789 344 <span>+(123) 456 780 344</span></p>
+					<p>+(01) 543 5225 <span>+(51) 982 220 552</span></p>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
 					<div class="w3l_footer_grid">
 						<i class="fa fa-envelope" aria-hidden="true"></i>
 					</div>
 					<h4>E-mail</h4>
-					<p><a href="mailto:info@example.com">info@example1.com</a>
-						<span><a href="mailto:info@example.com">info@example2.com</a></span></p>
+					<p><a href="mailto:info@example.com">info@SportConnexus.com</a>
+						<span><a href="mailto:info@example.com">administracion@SportConnexus.com</a></span></p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>

@@ -136,7 +136,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="agileits_more">
             <ul>
                 <li><a href="#" class="w3ls_banner_more hvr-icon-hang">Explore</a></li>
-                <li><a href="#" class="hvr-icon-hang" data-toggle="modal" data-target="#myModal">Más Información</a></li>
+                <li><a href="#" class="hvr-icon-hang" data-toggle="modal" data-target="#myModal">Mas Informacion</a></li>
             </ul>
         </div>
     </div>
@@ -344,7 +344,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="container">
             <div class="col-md-5 wthree_stat_left">
                 <h3>Nuestras Estadisticas</h3>
-                <p>Información de actividades registradas.</p>
+                <p>Informacion de actividades registradas.</p>
             </div>
             <div class="col-md-7 wthree_stat_right">
                 <ul>
@@ -377,7 +377,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="w3layouts_newsletter">
         <div class="container">
             <div class="w3layouts_newsletter_left">
-                <h3>Suscríbete a nuestra Web</h3>
+                <h3>Suscribete a nuestra Web</h3>
             </div>
             <div class="w3layouts_newsletter_right">
                 <form action="#" method="post">
@@ -414,7 +414,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="w3l_footer_grid">
                     <i class="fa fa-home" aria-hidden="true"></i>
                 </div>
-                <h4>Dirección</h4>
+                <h4>Direccion</h4>
                 <p>Av. José Carlos Mariátegui 375 urb. Lucyana Distrito: Los Olivos</p>
             </div>
             <div class="col-md-2 w3_footer_grid">

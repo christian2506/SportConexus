@@ -72,7 +72,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <li><a href="portafolio2.jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
                             <li><a href="contact2.jsp" class="hvr-sweep-to-bottom">Contactanos</a></li>
                             <li><a href="NewTeam.jsp" class="hvr-sweep-to-bottom">Agraga Equipo</a></li>
-                            <li><a href="index.jsp" class="hvr-sweep-to-bottom">Cerrar sesión</a></li>
+                            <li><a href="index.jsp" class="hvr-sweep-to-bottom">Cerrar sesion</a></li>
                         </ul>
                         <div class="agileinfo_search">
                             <form action="#" method="post">
@@ -115,11 +115,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="wthree_banner_grids">
             <div class="col-md-3 wthree_banner_grid">
                 <i class="fa fa-desktop" aria-hidden="true"></i>
-                <h4>Solucion a la molesta documentación </h4>
+                <h4>Solucion a la molesta documentacion </h4>
             </div>
             <div class="col-md-3 wthree_banner_grid">
                 <i class="fa fa-money" aria-hidden="true"></i>
-                <h4>No más tiempo perdido en buscar un espacio deportivo</h4>
+                <h4>No mas tiempo perdido en buscar un espacio deportivo</h4>
             </div>
             <div class="col-md-3 wthree_banner_grid">
                 <i class="fa fa-users" aria-hidden="true"></i>
@@ -145,7 +145,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                SportConexus
+                SportConnexus
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
             <section>
@@ -154,7 +154,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <p>Comparte momentos inolvidables con tus amigos gracias a "SportConnexus"
                         SportConnexus te ofrece una gran cantidad de espacios deportivos para elegir
                         la mejor opcion que se adapte a tus necesidades.
-                        <i>"Reservar un lugar deportivo disponible nunca ha sido más fácil"</i></p>
+                        <i>"Reservar un lugar deportivo disponible nunca ha sido más facil"</i></p>
                 </div>
             </section>
         </div>
@@ -342,7 +342,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="container">
             <div class="col-md-5 wthree_stat_left">
                 <h3>Nuestras Estadisticas</h3>
-                <p>Información de actividades registradas.</p>
+                <p>Informacion de actividades registradas.</p>
             </div>
             <div class="col-md-7 wthree_stat_right">
                 <ul>
