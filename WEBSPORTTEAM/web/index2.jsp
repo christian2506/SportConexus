@@ -3,7 +3,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>SportConexus a Corporate Business </title>
+    <title>SportConnexus a la mejor alternativa para reservar un espacio deportivo </title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
