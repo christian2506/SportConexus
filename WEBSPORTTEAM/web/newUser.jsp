@@ -64,7 +64,7 @@
                     </div>
 
                     <div class="form-group col-lg-12">
-                        <input type="checkbox" />Acepto los términos y condiciones
+                        <input type="checkbox" />Acepto los terminos y condiciones
                     </div>
                     <div>
                         <input type="hidden" name="action" value="create"/>
@@ -75,17 +75,19 @@
                 <div class="col-md-6">
                     <h3 class="dark-grey">Terms and Conditions</h3>
                     <p>
-                        By clicking on "Register" you agree to The Company's' Terms and Conditions
+                        Al hacer clic en "Registrar", usted acepta los Términos y Condiciones de la Empresa
                     </p>
                     <p>
-                        While rare, prices are subject to change based on exchange rate fluctuations -
-                        should such a fluctuation happen, we may request an additional payment. You have the option to request a full refund or to pay the new price. (Paragraph 13.5.8)
+                        Los precios están sujetos a cambios basados en las fluctuaciones de los tipos de cambio,
+                                                 Si tal fluctuacion ocurre, podemos solicitar un pago adicional. Usted tiene la opción de solicitar un reembolso completo o pagar el nuevo precio. (Parrafo 12.3.4)
                     </p>
                     <p>
-                        Should there be an error in the description or pricing of a product, we will provide you with a full refund (Paragraph 13.5.6)
+                        En caso de error en la descripcion o precio del alquiler del espacio deportivo, le proporcionaremos un reembolso completo (Párrafo 17.5.6)
                     </p>
                     <p>
-                        Acceptance of an order by us is dependent on our suppliers ability to provide the product. (Paragraph 13.5.6)
+
+                        108/5000
+                        La aceptación de la reservacion de un espacio deportivo depende de la capacidad de nuestros proveedores (Dueños de espacios deportivos) para proporcionar el producto. (Párrafo 14.5.6)
                     </p>
 
 

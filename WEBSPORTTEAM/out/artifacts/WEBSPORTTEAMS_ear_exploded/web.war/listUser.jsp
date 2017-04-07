@@ -4,7 +4,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html >
 <head>
-    <title>SportConnexus </title>
+    <title>SportConnexus a la mejor alternativa para reservar un espacio deportivo</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -39,7 +39,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="agileits_w3layouts_sign_in">
                 <ul>
 
-                    <li>Contáctanos : <span>+(01) 543 5225</span></li>
+                    <li>Contactanos : <span>+(01) 543 5225</span></li>
                 </ul>
             </div>
             <div class="clearfix"> </div>
@@ -65,7 +65,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <li><a href="listBusinessPartner.action" class="hvr-sweep-to-bottom">Socios</a></li>
                             <li><a href="listSport.action" class="hvr-sweep-to-bottom">Deportes</a></li>
 
+<<<<<<< HEAD:WEBSPORTTEAM/out/artifacts/WEBSPORTTEAMS_ear_exploded/web.war/listUser.jsp
                             <li><a href="index2.jsp" class="hvr-sweep-to-bottom">Volver</a></li>
+=======
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Torneo <b class="caret"></b></a>
+                                <ul class="dropdown-menu agile_short_dropdown">
+                                    <li><a href="icons2.jsp">Equipos</a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="portafolio2.jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
+                            <li><a href="contact2.jsp" class="hvr-sweep-to-bottom">Contactanos</a></li>
+                            <li><a href="NewTeam.jsp" class="hvr-sweep-to-bottom" >Agrega Equipo </a></li>
+                            <li><a href="index.jsp" class="hvr-sweep-to-bottom">Cerrar Sesion</a></li>
+>>>>>>> origin/master:WEBSPORTTEAM/web/icons2.jsp
 
                         </ul>
 
@@ -234,30 +248,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
         <div class="w3_footer_grids">
             <div class="col-md-4 w3_footer_grid">
-                <h2><a href="index.jsp"><span>Sport</span>Conexus</a></h2>
-                <p>Nuestra Web <a href="#">http:///SportConexus.com</a> Club Deportivo.</p>
+                <h2><a href="index.jsp"><span>Sport</span>Connexus</a></h2>
+                <p>Nuestra Web <a href="#">http:///SportConnexus.com</a> Club Deportivo.</p>
             </div>
             <div class="col-md-3 w3_footer_grid">
                 <div class="w3l_footer_grid">
                     <i class="fa fa-home" aria-hidden="true"></i>
                 </div>
                 <h4>Direccion</h4>
-                <p>234 main street west Building, NewYork City,F34 834.</p>
+                <p>Av. José Carlos Mariátegui 375 urb. Lucyana Distrito: Los Olivos</p>
             </div>
             <div class="col-md-2 w3_footer_grid">
                 <div class="w3l_footer_grid">
                     <i class="fa fa-phone" aria-hidden="true"></i>
                 </div>
                 <h4>Llamanos</h4>
-                <p>+(123) 456 789 344 <span>+(123) 456 780 344</span></p>
+                <p>+(01) 543 5225  <span>+(51) 982 220 552</span></p>
             </div>
             <div class="col-md-3 w3_footer_grid">
                 <div class="w3l_footer_grid">
                     <i class="fa fa-envelope" aria-hidden="true"></i>
                 </div>
                 <h4>E-mail</h4>
-                <p><a href="mailto:info@example.com">info@example1.com</a>
-                    <span><a href="mailto:info@example.com">info@example2.com</a></span></p>
+                <p><a href="mailto:info@example.com">info@SportConnexus.com</a>
+                    <span><a href="mailto:info@example.com">administracion@SportConnexus.com</a></span></p>
             </div>
             <div class="clearfix"> </div>
         </div>

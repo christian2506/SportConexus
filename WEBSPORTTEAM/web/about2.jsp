@@ -361,8 +361,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="w3l_footer_grid">
                     <i class="fa fa-home" aria-hidden="true"></i>
                 </div>
-                <h4>Dirección</h4>
-                <p>Av. José Carlos Mariátegui 375 urb. Lucyana Distrito: Los Olivos</p>
+                <h4>Direccion</h4>
+                <p>Av. Jose Carlos Mariátegui 375 urb. Lucyana Distrito: Los Olivos</p>
             </div>
             <div class="col-md-2 w3_footer_grid">
                 <div class="w3l_footer_grid">
@@ -389,8 +389,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <ul>
                 <li><a href="services.jsp">Servicios</a></li>
                 <li class="active"><a href="about.jsp">Acerca</a></li>
-                <li><a href="portfolio.jsp">Galería</a></li>
-                <li><a href="contact.jsp">Contáctanoss</a></li>
+                <li><a href="portfolio.jsp">Galeria</a></li>
+                <li><a href="contact.jsp">Contactanoss</a></li>
             </ul>
             <p>© 2017 SportConnexus. Todos los Derechos Reservados </p>
         </div>

@@ -3,7 +3,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>SportConexus a Corporate Business </title>
+  <title>SportConnexus a la mejor alternativa para reservar un espacio deportivo </title>
   <!-- for-mobile-apps -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -65,7 +65,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
               <li><a href="portfolio.jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
               <li><a href="contact.jsp" class="hvr-sweep-to-bottom">Contactanos</a></li>
-              <li><a href="validationUser.jsp" class="hvr-sweep-to-bottom">Iniciar Sesión</a></li>
+              <li><a href="validationUser.jsp" class="hvr-sweep-to-bottom">Iniciar Sesion</a></li>
               <li><a href="newUser.jsp" class="hvr-sweep-to-bottom">Registrate</a></li>
 
             </ul>
@@ -129,7 +129,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="agileits_more">
       <ul>
         <li><a href="#" class="w3ls_banner_more hvr-icon-hang">Explore</a></li>
-        <li><a href="#" class="hvr-icon-hang" data-toggle="modal" data-target="#myModal">Más Información</a></li>
+        <li><a href="#" class="hvr-icon-hang" data-toggle="modal" data-target="#myModal">Más Informacion</a></li>
       </ul>
     </div>
   </div>

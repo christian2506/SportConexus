@@ -3,7 +3,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html >
 <head>
-    <title>SportConnnexus</title>
+    <title>SportConnexus a la mejor alternativa para reservar un espacio deportivo</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -38,7 +38,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="agileits_w3layouts_sign_in">
                 <ul>
 
-                    <li>Contáctanos: <span>+(01) 543 5225</span></li>
+                    <li>Contactanos: <span>+(01) 543 5225</span></li>
                 </ul>
             </div>
             <div class="clearfix"> </div>
@@ -61,10 +61,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <li class="active"><a href="services.jsp"> ¿Que Ofrecemos? </a></li>
                             <li><a href="about.jsp" class="hvr-sweep-to-bottom"> Acerca </a></li>
 
+<<<<<<< HEAD
                             <li><a href="portfolio.jsp" class="hvr-sweep-to-bottom">Galería</a></li>
+=======
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown">Torneo <b class="caret"></b></a>
+                                <ul class="dropdown-menu agile_short_dropdown">
+                                    <li><a href="icons.jsp">Equipos</a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="portfolio.jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
+>>>>>>> origin/master
                             <li><a href="contact.jsp" class="hvr-sweep-to-bottom">Contactanos</a></li>
                             <li><a href="validationUser.jsp" class="hvr-sweep-to-bottom">Iniciar Seccion</a></li>
-                            <li><a href="newUser.jsp" class="hvr-sweep-to-bottom">Reguistrate</a></li>
+                            <li><a href="newUser.jsp" class="hvr-sweep-to-bottom">Registrate</a></li>
                         </ul>
                         <div class="agileinfo_search">
                             <form action="#" method="post">
@@ -148,7 +160,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                 </div>
                 <h4>Disponiblilidad de espacios deportivos </h4>
-                <p>Prácticas deportivas .</p>
+                <p>Practicas deportivas .</p>
             </div>
             <div class="clearfix"> </div>
         </div>
@@ -158,7 +170,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- services-bottom -->
 <div class="services-bottom">
     <div class="container">
-        <h3>Incentivar el deporte al público</h3>
+        <h3>Incentivar el deporte al publico</h3>
     </div>
 </div>
 <!-- //services-bottom -->
@@ -168,14 +180,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="w3_footer_grids">
             <div class="col-md-4 w3_footer_grid">
                 <h2><a href="index.jsp"><span>Sport</span>Connexus</a></h2>
-                <p>Nuestra Web <a href="#">http:///SportConexus.com</a> WebSite de reservación de espacios deportivo.</p>
+                <p>Nuestra Web <a href="#">http:///SportConnexus.com</a> WebSite de reservacion de espacios deportivo.</p>
             </div>
             <div class="col-md-3 w3_footer_grid">
                 <div class="w3l_footer_grid">
                     <i class="fa fa-home" aria-hidden="true"></i>
                 </div>
-                <h4>Dirección</h4>
-                <p>Av. José Carlos Mariátegui 375 urb. Lucyana Distrito: Los Olivos</p>
+                <h4>Direccion</h4>
+                <p>Av. Jose Carlos Mariategui 375 urb. Lucyana Distrito: Los Olivos</p>
             </div>
             <div class="col-md-2 w3_footer_grid">
                 <div class="w3l_footer_grid">
@@ -202,7 +214,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <ul>
                 <li><a href="services.jsp">Servicios</a></li>
                 <li><a href="about.jsp">Acerca</a></li>
-                <li><a href="portfolio.jsp">Galería</a></li>
+                <li><a href="portfolio.jsp">Galeria</a></li>
                 <li><a href="contact.jsp">Contáctanos</a></li>
             </ul>
             <p> © 2017 SportConnexus. Todos los Derechos Reservados </p>

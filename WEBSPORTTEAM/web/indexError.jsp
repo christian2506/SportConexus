@@ -4,7 +4,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>SportConexus a Corporate Business </title>
+    <title>SportConnexus a la mejor alternativa para reservar un espacio deportivo </title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -35,7 +35,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="agile_header_grid">
             <div class="w3_agile_logo">
 
-                <h1>Contraseña o Usuario Inválido  <img src="images/18.jpg" alt=" " class="img-responsive" /> </h1>
+                <h1>Contraseña o Usuario NO valido  <img src="images/18.jpg" alt=" " class="img-responsive" /> </h1>
             </div>
             <div class="agileits_w3layouts_sign_in">
 
@@ -109,7 +109,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <td><input  textfield name="userName" placeholder="NombreUsuario"> </td>
             </tr>
             <tr>
-                <th align="rigth"> Password:</th>
+                <th align="rigth"> Contraseña:</th>
                 <td> <input type="password" name="password" placeholder="Password"> </td>
             </tr>
             <tr>

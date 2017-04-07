@@ -4,7 +4,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>SportConexus a Corporate Business </title>
+    <title>SportConnexus a la mejor alternativa para reservar un espacio deportivo </title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -111,7 +111,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <td><input  textfield name="userName" placeholder="NombreUsuario"> </td>
         </tr>
         <tr>
-            <th align="rigth"> Password:</th>
+            <th align="rigth"> Contraseña:</th>
             <td> <input type="password" name="password" placeholder="Password"> </td>
         </tr>
         <tr>
@@ -253,7 +253,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="container">
             <div class="col-md-5 wthree_stat_left">
                 <h3>Nuestras Estadisticas</h3>
-                <p>Información de actividades registradas.</p>
+                <p>Informacion de actividades registradas.</p>
             </div>
             <div class="col-md-7 wthree_stat_right">
                 <ul>
