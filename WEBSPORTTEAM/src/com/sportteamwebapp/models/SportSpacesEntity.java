@@ -14,7 +14,24 @@ public class SportSpacesEntity extends  BaseEntity{
     private SportsEntity sportsEntity;
 
     public List<SportSpace> findAll() {
-        return findByCriteria(DEFAULT_SQL);
+
+        String sql = "SELECT * FROM db_sport.sport_space";
+        List<SportSpace> sportSpaces = new ArrayList<>();
+        try {
+            ResultSet resultSet  = getConnection().createStatement().executeQuery(sql);
+            while(resultSet.next()) {
+                sportSpaces.add(new SportSpace(resultSet.getInt("sport_space_id"),
+                        resultSet.getString("sport_space_name"),
+                        resultSet.getInt("maximum_capacity"),
+                        resultSet.getString("status"),
+                        placesEntity.findById(resultSet.getInt("place_id")),
+                        sportsEntity.findById(resultSet.getInt("sport_id"))));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return sportSpaces;
     }
 
     public SportSpace findById(String id) {

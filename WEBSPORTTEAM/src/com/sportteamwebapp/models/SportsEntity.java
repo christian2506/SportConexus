@@ -11,10 +11,24 @@ import java.util.List;
  */
 public class SportsEntity extends  BaseEntity{
 
-    private static String DEFAULT_SQL = "SELECT * FROM db_sport.regions";
-
+    private static String DEFAULT_SQL = "SELECT * FROM db_sport.business_partners";
+    private PlacesEntity placesEntity;
     public List<Sport> findAll() {
-        return findByCriteria(DEFAULT_SQL);
+
+        String sql = "SELECT * FROM db_sport.sports";
+        List<Sport> sports = new ArrayList<>();
+        try {
+            ResultSet resultSet = getConnection().createStatement().executeQuery(sql);
+            while(resultSet.next()) {
+                sports.add(new Sport(resultSet.getInt("sport_id"),
+                        resultSet.getString("sport_name")));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return sports;
+
     }
 
     public Sport findById(int id) {

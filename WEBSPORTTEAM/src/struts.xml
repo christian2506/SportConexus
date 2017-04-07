@@ -8,39 +8,36 @@
 
     <package name="default" extends="struts-default">
 
-        <action name="businessPartner" class="com.sportteamwebapp.actions.BusinessPartnerAction">
+        <action name="listBusinessPartner" class="com.sportteamwebapp.actions.BusinessPartnerAction" method="list">
 
-
-        </action>
-
-
-        <action name="place" class="com.sportteamwebapp.actions.PlaceAction" method="list">
-            <result name="success">icons.jsp</result>
-
-        </action>
-
-        <action name="sport" class="com.sportteamwebapp.actions.SportAction">
-
-
+            <result name="success">listBusinessPartner.jsp</result>
         </action>
 
 
 
-        <action name="sportSpace" class="com.sportteamwebapp.actions.SportSpaceAction">
 
+        <action name="listSport" class="com.sportteamwebapp.actions.SportAction" method="list">
+
+            <result name="success">listSport.jsp</result>
+        </action>
+
+
+
+        <action name="listSportSpace" class="com.sportteamwebapp.actions.SportSpaceAction" method="list">
+            <result name="success">listSportSpace.jsp</result>
 
         </action>
 
 
-        <action name="team" class="com.sportteamwebapp.actions.TeamAction">
+        <action name="listTeam" class="com.sportteamwebapp.actions.TeamAction" method="list">
 
-
+            <result name="success">listTeam.jsp</result>
         </action>
 
 
-        <action name="user" class="com.sportteamwebapp.actions.UserAction">
+        <action name="listUser" class="com.sportteamwebapp.actions.UserAction" method="list">
 
-
+            <result name="success">listUser.jsp</result>
         </action>
 
 

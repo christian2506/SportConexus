@@ -13,7 +13,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- //for-mobile-apps -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" tye="text/css" media="all" />
     <!-- js -->
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <!-- //js -->
@@ -61,17 +61,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <li class="active"><a href="index2.jsp">Inicio</a></li>
                             <li><a href="services2.jsp" class="hvr-sweep-to-bottom"> ¿Que Ofrecemos? </a></li>
                             <li><a href="about2.jsp" class="hvr-sweep-to-bottom">Acerca</a></li>
-
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown">Torneo<b class="caret"></b></a>
-                                <ul class="dropdown-menu agile_short_dropdown">
-                                    <li><a href="icons2.jsp">Equipos</a></li>
-
-                                </ul>
-                            </li>
+                            <li><a href="information.jsp" class="hvr-sweep-to-bottom">Información</a></li>
                             <li><a href="portafolio2.jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
                             <li><a href="contact2.jsp" class="hvr-sweep-to-bottom">Contactanos</a></li>
-                            <li><a href="NewTeam.jsp" class="hvr-sweep-to-bottom">Agraga Equipo</a></li>
                             <li><a href="index.jsp" class="hvr-sweep-to-bottom">Cerrar Sesíon</a></li>
 
 

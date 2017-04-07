@@ -12,7 +12,20 @@ public class PlacesEntity extends BaseEntity {
     private static String DEFAULT_SQL = "SELECT * FROM db_sport.places";
 
     public List<Place> findAll() {
-        return findByCriteria(DEFAULT_SQL);
+
+        String sql = "SELECT * FROM db_sport.places";
+        List<Place> places = new ArrayList<>();
+        try {
+            ResultSet resultSet = getConnection().createStatement().executeQuery(sql);
+            while(resultSet.next()) {
+                places.add(new Place(resultSet.getInt("place_id"),
+                        resultSet.getString("location")));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return places;
     }
 
     public Place findById(int id) {

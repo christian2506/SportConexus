@@ -13,7 +13,21 @@ public class BusinessPartnersEntity extends BaseEntity {
     private PlacesEntity placesEntity;
 
     public List<BusinessPartner> findAll() {
-        return findByCriteria(DEFAULT_SQL);
+        String sql = "SELECT * FROM db_sport.business_partners";
+        List<BusinessPartner> businessPartners = new ArrayList<>();
+        try {
+            ResultSet resultSet  = getConnection().createStatement().executeQuery(sql);
+            while(resultSet.next()) {
+                businessPartners.add(new BusinessPartner(resultSet.getInt("business_partner_id"),
+                        resultSet.getString("name_partner"),
+                        resultSet.getInt("phone"),
+                        placesEntity.findById(resultSet.getInt("place_id"))));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return businessPartners;
     }
 
     public BusinessPartner findById(String id) {

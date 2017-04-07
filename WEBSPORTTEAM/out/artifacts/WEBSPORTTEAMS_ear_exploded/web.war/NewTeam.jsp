@@ -29,7 +29,7 @@
 <body>
 
 <h1>Agregar un Equipo</h1>
-<form action="team.action" method="post">
+<form action="" method="post">
 
     TeamId : <input type="text" name="team_id"><tr/>
 

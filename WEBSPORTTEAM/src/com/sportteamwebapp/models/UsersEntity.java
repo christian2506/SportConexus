@@ -11,10 +11,29 @@ import java.util.List;
 public class UsersEntity extends  BaseEntity {
 
     private static String DEFAULT_SQL = "SELECT * FROM db_sport.teams";
-    private TeamsEntity teamsEntity;
 
-    public List<User> findAll() {
-        return findByCriteria(DEFAULT_SQL);
+
+    public List<User> findAll()    {
+        String sql = "SELECT * FROM db_sport.users";
+        List<User> users = new ArrayList<>();
+        try {
+            ResultSet resultSet = getConnection().createStatement().executeQuery(sql);
+            while(resultSet.next()) {
+                users.add(new User(resultSet.getInt("user_id"),
+                        resultSet.getString("password"),
+                        resultSet.getString("first_name"),
+                        resultSet.getString("last_name"),
+                        resultSet.getInt("age"),
+                        resultSet.getInt("phone"),
+                        resultSet.getString("email"),
+                        resultSet.getString("gender"),
+                        resultSet.getInt("dni")));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return users;
     }
 
     public User findById(int id) {
@@ -47,13 +66,6 @@ public class UsersEntity extends  BaseEntity {
         return null;
     }
 
-
-    public TeamsEntity getTeamsEntity() {return teamsEntity;}
-
-
-    public void setTeamsEntity(TeamsEntity teamssEntity) {
-        this.teamsEntity = teamsEntity;
-    }
 
     private int getMaxId() {
         String sql = "SELECT MAX(team_id) as max_id FROM teams";

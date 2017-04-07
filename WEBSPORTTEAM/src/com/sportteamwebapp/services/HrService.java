@@ -64,14 +64,14 @@ public class HrService {
         this.sportsEntity = sportsEntity;
     }
 
-    public List<Sport> findAllSports() {
-        return getSportsEntity().findAll();
+    public List<Sport> findAllSports() {return getSportsEntity().findAll();
     }
 
     protected BusinessPartnersEntity getBusinessPartnersEntity() {
         if(businessPartnersEntity == null) {
             businessPartnersEntity = new BusinessPartnersEntity();
             businessPartnersEntity.setConnection(getConnection());
+            businessPartnersEntity.setPlacesEntity(getPlacesEntity());
         }
         return businessPartnersEntity;
     }
@@ -113,6 +113,8 @@ public class HrService {
         if(sportSpacesEntity == null) {
             sportSpacesEntity = new SportSpacesEntity();
             sportSpacesEntity.setConnection(getConnection());
+            sportSpacesEntity.setSportsEntity(getSportsEntity());
+            sportSpacesEntity.setPlacesEntity(getPlacesEntity());
         }
         return sportSpacesEntity;
     }
@@ -132,9 +134,12 @@ public class HrService {
 
 
     protected TeamsEntity getTeamsEntity() {
-        if(teamsEntity == null) {
-            teamsEntity = new TeamsEntity();
-            teamsEntity.setConnection(getConnection());
+        if(getConnection() != null) {
+            if(teamsEntity == null) {
+                teamsEntity = new TeamsEntity();
+                teamsEntity.setConnection(getConnection());
+                teamsEntity.setSportsEntity(getSportsEntity());
+            }
         }
         return teamsEntity;
     }
@@ -143,9 +148,10 @@ public class HrService {
     }
 
     public List<Team> findAllTeams() {
-        return getTeamsEntity().findAll();
+        return getTeamsEntity() != null ?
+                getTeamsEntity().findAll() :
+                null;
     }
-
 
 
 

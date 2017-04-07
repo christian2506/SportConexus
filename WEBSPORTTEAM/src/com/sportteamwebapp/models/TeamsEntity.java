@@ -13,7 +13,23 @@ public class TeamsEntity extends BaseEntity {
     private SportsEntity sportsEntity;
 
     public List<Team> findAll() {
-        return findByCriteria(DEFAULT_SQL);
+
+        String sql = "SELECT * FROM db_sport.teams";
+        List<Team> teams = new ArrayList<>();
+        try {
+            ResultSet resultSet  = getConnection().createStatement().executeQuery(sql);
+            while(resultSet.next()) {
+                teams.add(new Team(resultSet.getInt("team_id"),
+                        resultSet.getString("team_name"),
+                        resultSet.getInt("team_rank"),
+                        resultSet.getInt("number_victory"),
+                        sportsEntity.findById(resultSet.getInt("sport_id"))));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return teams;
     }
 
     public Team findById(int id) {

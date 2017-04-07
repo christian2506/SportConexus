@@ -61,15 +61,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <li><a href="index2.jsp" class="hvr-sweep-to-bottom">Inicio</a></li>
                             <li><a href="services2.jsp" class="hvr-sweep-to-bottom"> ¿Que Ofrecemos? </a></li>
                             <li class="active"><a href="about2.jsp">Acerca</a></li>
-
-
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown">Torneos <b class="caret"></b></a>
-                                <ul class="dropdown-menu agile_short_dropdown">
-                                    <li><a href="icons2.jsp">Equipos</a></li>
-
-                                </ul>
-                            </li>
+                            <li><a href="information.jsp" class="hvr-sweep-to-bottom">Información</a></li>
                             <li><a href="portafolio2.jsp" class="hvr-sweep-to-bottom">Galeria</a></li>
                             <li><a href="contact2.jsp" class="hvr-sweep-to-bottom">Contáctanos</a></li>
                             <

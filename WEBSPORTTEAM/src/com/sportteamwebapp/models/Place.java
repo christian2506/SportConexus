@@ -35,7 +35,7 @@ public class Place {
     public static Place build(ResultSet resultSet) {
         try {
             return new Place(resultSet.getInt("place_id"),
-                    resultSet.getString("sport_name")
+                    resultSet.getString("location")
 
 
             );
